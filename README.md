@@ -1,31 +1,7 @@
-# Flexible-Jekyll is a simple and clean theme for Jekyll
-
-![](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/promo-img.jpg?raw=true)
-
-## Demo
-
-Check the theme in action [Demo](https://artemsheludko.github.io/flexible-jekyll/)
-
-The main page would look like this:
-
-![Main page preview](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/home-page.jpg?raw=true)
-
-The post page would look like this:
-
-![Post page preview](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/post-example.jpg?raw=true)
-
-## Features
-
-- [Google Fonts](https://fonts.google.com/)
-- [Font Awesome](http://fontawesome.io/)
-- [Disqus](https://disqus.com/)
-- [Analytics](https://analytics.google.com/analytics/web/)
-- Support Emoji
-
-## Installation:
-
-Fork the ``master`` branch and delete ``gh-pages`` branch in it. This is important because ``gh-pages`` branch is used here only to host the blog. You should be using the master branch as the source and create a fresh ``gh-pages`` branch.
+# A blog to log down my Ph.D. learning path and daily life.
+* This blog is built following the guidance on the [Kresnik's blog](http://kresnik.wang/works/tech/2015/06/07/在github-pages网站下用jekyll制作博客教程.html).
+* The template is the [Flexible-Jekyll theme](http://jekyllthemes.org/themes/flexible-jekyll/) from [jekyllthemes](http://jekyllthemes.org).
+* The Disqus comment feature is removed at the moment to avoid unnecessary advertisement and it may be added later.
 
 ### License
-
 GNU General Public License v3.0
