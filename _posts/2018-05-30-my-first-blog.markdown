@@ -9,3 +9,5 @@ comments: true
 tags: [jekyll, blog]
 ---
 This is my first blog. The following would illustrate the exact process.
+
+![Picture example]({{site.baseurl}}/assets/img/bulb.jpg)
