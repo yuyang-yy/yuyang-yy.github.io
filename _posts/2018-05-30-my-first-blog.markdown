@@ -8,6 +8,11 @@ img: book-cactus.jpg
 comments: true
 tags: [jekyll, blog]
 ---
-This is my first blog. The following would illustrate the exact process.
+This is my first blog. In this blog, I would illustrate why I build this blog and what I will log down in this website.
+
+Several things I will do in my blog:
+* Try to illustrate what I have learnt to examine whether I truly understand it or not.
+* Log down my puzzles and how I solve it.
+* Record some interesting and happy moments in my daily life.
 
 ![Picture example]({{site.baseurl}}/assets/img/bulb.jpg)
