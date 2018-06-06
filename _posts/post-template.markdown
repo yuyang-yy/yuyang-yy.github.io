@@ -1,14 +1,14 @@
 ---
 layout: post
-title: My First Blog
+title: Name of the Blog
 author: yuyang
-date: 2018-05-30
-description: To illustrate the purpose and main content of my blog.
-img: book-cactus.jpg
+date: The date I write this blog
+description:  (optional)
+img: (name of the picture).jpg
 comments: true
-tags: [jekyll, blog]
+tags: [tag1, tag2]
 ---
-This is my first blog. In this blog, I would illustrate why I build this blog and what I will log down in this website.
+(The content of the blog.)
 
 Several things I will do in my blog:
 * Try to illustrate what I have learnt to examine whether I truly understand it or not.
