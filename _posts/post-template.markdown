@@ -2,7 +2,7 @@
 layout: post
 title: Name of the Blog
 author: yuyang
-date: The date I write this blog
+date: yyyy-mm-dd
 description:  (optional)
 img: (name of the picture).jpg
 comments: true
