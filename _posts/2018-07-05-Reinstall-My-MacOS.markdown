@@ -69,6 +69,11 @@ Terminal Preferences -> Profiles -> Text and Window option
 11. Check java and jdk:
 This mac doesn't have java, so I downloaded and installed them. I used 8u171 version.
 
+12. Enable starting VSCode through terminal command:`code`:
+    * Open VSCode, Shift + Command + P
+    * input `shell`
+    * Choose to __install code command in PATH__.
+
 Tasks I need to do:
 1. Softwares I need to install later: Firefox, Octave.
 3. To configure the environment variables
