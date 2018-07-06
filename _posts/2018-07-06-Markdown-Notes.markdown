@@ -6,30 +6,27 @@ date: 2018-07-06
 description:  (optional)
 img: markdown.jpg
 comments: true
-tags: [tag1, tag2]
+tags: [Markdown, Syntax]
 ---
-(The content of the blog.)
 
-This markdown notes are referenced from [DARING FIREBALL Markdown Basics](https://daringfireball.net/projects/markdown/basics) 
-and [Github Guides](https://guides.github.com/features/mastering-markdown/).
+These markdown notes are referenced from [Markdown Basics](https://daringfireball.net/projects/markdown/basics), [Github Guides](https://guides.github.com/features/mastering-markdown/) and [Writing on Github](https://help.github.com/categories/writing-on-github/).
 
 # HEADERS
 There are two styles of headers: Setext and atx.
 
-Setext
-======
-(use = or -)
+### Setext (Use = or -)
 
-A First Level Header
+> A First Level Header
 ====================
 
-A Second Level Header
+> A Second Level Header
 ---------------------
 
-## atx
-(Use 1-6 hash marks(#) at the beginning of the line)
+### atx (Use 1-6 hash marks(#) at the beginning of the line)
 
-### Header 3
+> ### Header 3 
+
+> ##### Header 5
 
 # BLOCKQUOTE
 
@@ -39,21 +36,21 @@ A Second Level Header
 >
 > ## This is an H2 in a blockquote.
 
-In what follows, I would use atx style to indicate headers.
-
 
 # PHRASE EMPHASIS
 Markdown uses asterisks and underscores to indicate spans of emphasis.
 
-Some of these words *are italic*.
-Some of these words _are italic also_.
++   Some of these words *are italic*.
 
-Use two asterisks for **bold**.
-Or, if you prefer, __use two underscores instead__.
++   Some of these words _are italic also_.
+
++   Use two asterisks for **bold**.
+
++   Or, if you prefer, __use two underscores instead__.
 
 
 # LISTS
-Unordered lists use asterisks, pluses, and hyphens(*, +, -) as list markers. They are interchangeable.
+Unordered lists use asterisks, pluses, and hyphens(**, +, -) as list markers. They are interchangeable.
 
 *	Apple
 * 	Orange
@@ -90,23 +87,23 @@ There are two styles for creating links: inline and reference.
 
 Inline style:
 
-This is [Bing](https://cn.bing.com)
+*   This is [Bing](https://cn.bing.com)
 
 Reference style:
 
-I get 10 times more traffic from [Google][1] than from
-[Yahoo][2] or [MSN][3].
+*   I get 10 times more traffic from [Google][1] than from
+    [Yahoo][2] or [MSN][3].
 
-[1]: http://google.com/        "Google"
-[2]: http://search.yahoo.com/  "Yahoo Search"
-[3]: http://search.msn.com/    "MSN Search"
+    [1]: http://google.com/        "Google"
+    [2]: http://search.yahoo.com/  "Yahoo Search"
+    [3]: http://search.msn.com/    "MSN Search"
 
 Or, we can use name as index.
-I start my morning with a cup of coffee and
-[The New York Times][NY Times]. And I do exercises on [LeetCode][LeetCode].
+*   I start my morning with a cup of coffee and
+    [The New York Times][NY Times]. And I do exercises on [LeetCode][LeetCode].
 
-[ny times]: http://www.nytimes.com/
-[LeetCode]: https://leetcode.com
+    [ny times]: http://www.nytimes.com/
+    [LeetCode]: https://leetcode.com
 
 
 # IMAGES
@@ -129,10 +126,16 @@ Either simply indent a tab.
 	def __init(self):
 		self.height = 160
 
+Either use backticks.
+```
+def __init__(self):
+    self.height = 160
+```
+
 Either use Syntax highlighting (GFM).
 
 ```python
-def __init(self):
+def __init__(self):
 	self.width = 20
 ```
 
