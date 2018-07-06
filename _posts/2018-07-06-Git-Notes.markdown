@@ -1,19 +1,13 @@
 ---
 layout: post
-title: Name of the Blog
+title: Git Notes
 author: yuyang
 date: 2018-07-06
 description:  (optional)
 img: git.jpg
 comments: true
-tags: [tag1, tag2]
+tags: [Git, Github]
 ---
-(The content of the blog.)
 
-Several things I will do in my blog:
-* Try to illustrate what I have learnt to examine whether I truly understand it or not.
-* Log down my puzzles and how I solve it.
-* Record some interesting and happy moments in my daily life.
-
-I have decided to learn photography from now on. Maybe I would pause playing softball for some period and photography would be my future hobby. I found it very interesting through several hours' learning. Hope all goes well!
-![Picture example]({{site.baseurl}}/assets/img/bulb.jpg)
+After being confused by Git for almost 3 months, I have finally decided to write notes about Git to 
+keep me familiar with Git and Github. These notes are acquired through reading [Github 入门与实践](https://book.douban.com/subject/26462816/).
