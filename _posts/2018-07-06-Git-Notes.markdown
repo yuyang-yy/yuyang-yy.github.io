@@ -2,9 +2,9 @@
 layout: post
 title: Name of the Blog
 author: yuyang
-date: yyyy-mm-dd
+date: 2018-07-06
 description:  (optional)
-img: (name of the picture).jpg
+img: git.jpg
 comments: true
 tags: [tag1, tag2]
 ---
