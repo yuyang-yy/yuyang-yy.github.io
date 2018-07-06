@@ -65,11 +65,15 @@ System Prefereneces -> Users & Groups -> unlock to make changes -> turn off gues
 10. Configure terminal:
 Terminal Preferences -> Profiles -> Text and Window option
 
+11. Check java and jdk:
+This mac doesn't have java, so I downloaded and installed them. I used 8u171 version.
+
 Tasks I need to do:
 1. Softwares I need to install later: Firefox, Octave.
-2. To configure my blog and vim editor and other terminal configurations.
 3. To configure the environment variables
 4. Copy the .vimrc file to github. Other import configuration should also be uploaded to Github. As has been said in one blog, one should keep updating vim configuration.
 
 ### To Use *Pycharm* and *Clion*, I need to sign in the Jetbrains website and use my account and password to activate these two softwares.
 ### To use Texpad, I need to sign in the TexPad website and use my email and password to activate the softwares.
+
+![Image of bulb](https://octodex.github.com/images/yaktocat.png)
