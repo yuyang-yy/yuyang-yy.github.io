@@ -103,8 +103,6 @@ I updated the macOS according to the App Store instruction. Nothing strange happ
 
 13. Set the mac to turn display off after 1 hour. 
 
+14. Disable macOS automatically updates notification in App Store Preferences.
 
-# Tasks I need to do:
-1. Softwares I need to install later: Firefox, Octave.
-3. To configure the environment variables
-4. Copy the .vimrc file to github. Other import configuration should also be uploaded to Github. As has been said in one blog, one should keep updating vim configuration.
+
