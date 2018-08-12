@@ -9,6 +9,25 @@ comments: true
 tags: [ISLR, review]
 ---
 
+* [6 Linear Model Selection and Regularization](#6)
+    - [6.0 Introduction](#6.0)
+    - [6.1 Subset Selection](#6.1)
+    - [6.2 Shrinkage Methods](#6.2)
+    - [6.3 Dimension Reduction Methods](#6.3)
+    - [6.4 Considerations in High Dimensions](#6.4)
+* [7 Moving Beyond Linearity](#7)
+    - [7.1 Polynomial Regression](#7.1)
+    - [7.2 Step Functions](#7.2)
+    - [7.3 Basis Functios](#7.3)
+    - [7.4 Regression Splines](#7.4)
+    - [7.5 Smoothing Splines](#7.5)
+    - [7.6 Local Regression](#7.6)
+    - [7.7 Generalized Additive Models](#7.7)
+* [8 Tree-Based Methods](#8)
+    - [8.1 The Basics of Decision Trees](#8.1)
+    - [8.2 Bagging, Random Forests, Boosting](#8.2)
+    
+
 ## Chapter 2
 
 ## Chapter 3
@@ -17,9 +36,11 @@ tags: [ISLR, review]
 
 ## Chapter 5
 
-## Chapter 6
 
-### 6.0 Introduction
+
+<h2 id="6">6 Linear Model Selection and Regularization</h2>
+
+<h3 id="6.0">6.0 Introduction</h3>
 
 1. Why would we use alternative fitting procedures instead of least squares?
     - _Prediction Accuracy_:
@@ -39,7 +60,7 @@ tags: [ISLR, review]
 3. Is _Subset Selection_ equavalent to _feature selection_? Then what about _lasso_? 
     - No. _Subset Selection_ could do feature selection, _lasso_ could also do feature selection. But _Dimension Reduction_ is not a feature selection method.
 
-### 6.1 Subset Selection
+<h3 id="6.1">6.1 Subset Selection</h3>
 
 1. The pros and cons of _Best Subset Selection_, _Forward Stepwise Selection_, and _Backward Stepwise Selection_?
     - _Computationally_: _Best Subset Selection_ is more time-consuming.
@@ -62,7 +83,7 @@ tags: [ISLR, review]
 6. The point behind _one-standard-error rule_?
     - Parsimony
 
-### 6.2 Shrinkage Methods
+<h3 id="6.2">6.2 Shrinkage Methods</h3>
 
 1. The idea of shrinkage?
     - shrink the coefficients to zero, and thus reduce the variance 
@@ -89,7 +110,7 @@ tags: [ISLR, review]
         + lasso <-> Laplace prior, thus shrinked some coefficients to exact zero
     ![Bayesian: Ridge vs. Lasso]({{site.baseurl}}/assets/img/ridge_lasso_bayes.jpg)
 
-### 6.3 Dimension Reduction Methods
+<h3 id="6.3">6.3 Dimension Reduction Methods</h3>
 
 1. The idea of _Dimesion Reduction_?
     - constrain through the form of the coefficients
@@ -113,7 +134,7 @@ tags: [ISLR, review]
 6. Does PLS negelct the information which reflects the most variation of predictors?
     - We can consider these two dimension reduction methods identifying new features from different aspect of viewing the problem. PCR identifies new features reflecting the most variation while PLS identifies new features that relates both X and Y most.
 
-### 6.4 Considerations in High Dimensions
+<h3 id="6.4">6.4 Considerations in High Dimensions</h3>
 
 1. The problems of high dimensions
     - Regardless of whether or not there truly is relationship between response and predictors, in high dimensional case, least squares will yield the coefficients that make a perfect fitting, namely RSS=0, and thus overfitting.
@@ -128,9 +149,32 @@ tags: [ISLR, review]
     - Traditional measures of fitness could not be used to demonstrate the performance of high dimensional models. Use independent test set or cross-validation instead.
     - When we have got a model, we need to know that it is only one of the many possible models for prediction, and it requires further validation.(corresponding to the 4th problem of high dimensions.)
 
-## Chapter 7
 
-## Chapter 8
+
+<h2 id="7">7 Moving Beyond Linearity</h2>
+
+<h3 id="7.1">7.1 Polynomial Regression</h3>
+
+<h3 id="7.2">7.2 Step Functions</h3>
+
+<h3 id="7.3">7.3 Basis Functios</h3>
+
+<h3 id="7.4">7.4 Regression Splines</h3>
+
+<h3 id="7.5">7.5 Smoothing Splines</h3>
+
+<h3 id="7.6">7.6 Local Regression</h3>
+
+<h3 id="7.7">7.7 Generalized Additive Models</h3>
+
+
+
+<h2 id="8">8 Tree-Based Methods</h2>
+
+<h3 id="8.1">8.1 The Basics of Decision Trees</h3>
+
+<h3 id="8.2">8.2 Bagging, Random Forests, Boosting</h3>
+
 
 ## Chapter 9
 
