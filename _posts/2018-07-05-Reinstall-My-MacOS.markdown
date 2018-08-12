@@ -32,7 +32,7 @@ I updated the macOS according to the App Store instruction. Nothing strange happ
 2. Softwares I installed: Wunderlist, Be Focused, Anaconda, Google Chrome, BaiduWangpan, Pycharm, Clion, VSCode, Cheatsheet, Shadowsocks, TexStudio, Texpad, Thunder, MacTex.
     +   To Use **Pycharm** and **Clion**, I need to sign in the Jetbrains website and use my account and password to activate these two softwares.
     +   To use **Texpad**, I need to sign in the TexPad website and use my email and password to activate the softwares.
-    +   nstalling only the latex platform is not enough, **MacTex** should be downloaded as well. **MacTex** is one of the most popular latex distribution on macOS. 
+    +   Installing only the latex platform is not enough, **MacTex** should be downloaded as well. **MacTex** is one of the most popular latex distribution on macOS. 
     +   Unlike the previous macOS version, **Pages**, **Numbers**, and **Keynote** are not installed on this version, so I installed them. 
 
 3. Install homebrew using the code as follows:
