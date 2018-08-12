@@ -9,6 +9,24 @@ comments: true
 tags: [ISLR, review]
 ---
 
+* [3 Linear Regression](#3)
+    - [3.0 Introduction](#3.0)
+    - [3.1 Simple Linear Regression](#3.1)
+    - [3.2 Multiple Linear Regression](#3.2)
+    - [3.3 Other Considerations in the Regression Model](#3.3)
+    - [3.4 The Marketing Plan](#3.4)
+    - [3.5 Comparison of Linear Regression with K-Nearest Neighbors](#3.5)
+* [4 Classification](#4)
+    - [4.0 Introduction](#4.0)
+    - [4.1 An Overview of Classification](#4.1)
+    - [4.2 Why Not Linear Regression?](#4.2)
+    - [4.3 Logistic Regression](#4.3)
+    - [4.4 Linear Discriminant Analysis](#4.4)
+    - [4.5 A Comparison of Classfication Methods](#4.5)
+* [5 Resampling Methods](#5)
+    - [5.0 Introduction](#5.0)
+    - [5.1 Cross-Validation](#5.1)
+    - [5.2 The Bootstrap](#5.2)
 * [6 Linear Model Selection and Regularization](#6)
     - [6.0 Introduction](#6.0)
     - [6.1 Subset Selection](#6.1)
@@ -16,6 +34,7 @@ tags: [ISLR, review]
     - [6.3 Dimension Reduction Methods](#6.3)
     - [6.4 Considerations in High Dimensions](#6.4)
 * [7 Moving Beyond Linearity](#7)
+    - [7.0 Introduction](#7.0)
     - [7.1 Polynomial Regression](#7.1)
     - [7.2 Step Functions](#7.2)
     - [7.3 Basis Functios](#7.3)
@@ -24,18 +43,48 @@ tags: [ISLR, review]
     - [7.6 Local Regression](#7.6)
     - [7.7 Generalized Additive Models](#7.7)
 * [8 Tree-Based Methods](#8)
+    - [8.0 Introduction](#8.0)
     - [8.1 The Basics of Decision Trees](#8.1)
     - [8.2 Bagging, Random Forests, Boosting](#8.2)
-    
+* [9 Support Vector Machines](#9)
+    - [9.0 Introduction](#9.0)
+    - [9.1 Maximal Margin Classifier](#9.1)
+    - [9.2 Support Vector Classfiers](#9.2)
+    - [9.3 Support Vector Machines](#9.3)
+    - [9.4 SVMs with More than Two Classes](#9.4)
+    - [9.5 Relationship to Logistic Regression](#9.5)
+* [10 Unsupervised Learning](#10)
+    - [10.0 Introduction](#10.0)
+    - [10.1 The Challenge of Unsupervised Learning](#10.1)
+    - [10.2 Principal Components Analysis](#10.2)
+    - [10.3 Clustering Methods](#10.3)
 
-## Chapter 2
 
-## Chapter 3
+<h2 id="3">3 Linear Regression</h2>
 
-## Chapter 4
+<h3 id="3.0">3.0 Introduction</h3>
+<h3 id="3.1">3.1 Simple Linear Regression</h3>
+<h3 id="3.2">3.2 Multiple Linear Regression</h3>
+<h3 id="3.3">3.3 Other Considerations in the Regression Model</h3>
+<h3 id="3.4">3.4 The Marketing Plan</h3>
+<h3 id="3.5">3.5 Comparison of Linear Regression with K-Nearest Neighbors</h3>
 
-## Chapter 5
 
+<h2 id="4">4 Classification</h2>
+
+<h3 id="4.0">4.0 Introduction</h3>
+<h3 id="4.1">4.1 An Overview of Classification</h3>
+<h3 id="4.2">4.2 Why Not Linear Regression?</h3>
+<h3 id="4.3">4.3 Logistic Regression</h3>
+<h3 id="4.4">4.4 Linear Discriminant Analysis</h3>
+<h3 id="4.5">4.5 A Comparison of Classfication Methods</h3>
+
+
+<h2 id="5">5 Resampling Methods</h2>
+
+<h3 id="5.0">5.0 Introduction</h3>
+<h3 id="5.1">5.1 Cross-Validation</h3>
+<h3 id="5.2">5.2 The Bootstrap</h3>
 
 
 <h2 id="6">6 Linear Model Selection and Regularization</h2>
@@ -153,13 +202,53 @@ tags: [ISLR, review]
 
 <h2 id="7">7 Moving Beyond Linearity</h2>
 
+<h3 id="7.0">7.0 Introduction</h3>
+
+Chapter 6 improves model by reducing model complexity and is still in the framework of linear assumption.
+
+
+
 <h3 id="7.1">7.1 Polynomial Regression</h3>
+
+1. The individual coefficients are not of particular interest, and the point is to understand the relationship.
 
 <h3 id="7.2">7.2 Step Functions</h3>
 
-<h3 id="7.3">7.3 Basis Functios</h3>
+1. Pros and cons of step functions?
+    - pros: Polynomial Regression imposes a global structure on the non-linear function of X, while step functions do not.
+    - cons: can easily miss the pattern of the relationship
+
+2. The idea of step functions
+    - Convert a continuous variable into an ordered categorical variable, K + 1 dummy variables.
+    - can take it as piecewise-constant regression
+
+3. The interpretation of the coefficients
+    - beta_0
+    - beta_i (i >= 1)
+
+4. Why is step functions popular in biostatistics and epidemiology? Do these field have knowledge of the natural breakpoints?
+
+<h3 id="7.3">7.3 Basis Functions</h3>
+
+1. The relationship between _Basis Functions_ and _Polynomial Regression_ and _Step Functions_?
+
+2. Note that it still use the linear regression framework.
 
 <h3 id="7.4">7.4 Regression Splines</h3>
+
+1. Definition of _knots_?
+
+2. The difference between _piecewise polynomial regression_ and _regression splines_?
+    - regression splines satisfies the constraints on continuity and derivative continuity.
+
+3. How to understand _smooth_?
+    - In Mathematics, a smooth function is infinitely differentiable. However, in computer science, only several level of differentiable is required.(Still not sure.)
+
+4. The definition of a *degree_d spline*?
+
+5. **Would continuity in derivatives at degree k automatically satisfies continuity at lower degree of derivatives?**
+
+Despite of the performance at the boundaries, given the same degrees of freedom, is _Regression splines_ superior to _Polynomial Regression_? Would it be more stable in other ranges?
 
 <h3 id="7.5">7.5 Smoothing Splines</h3>
 
@@ -171,11 +260,23 @@ tags: [ISLR, review]
 
 <h2 id="8">8 Tree-Based Methods</h2>
 
+<h3 id="8.0">8.0 Introduction</h3>
 <h3 id="8.1">8.1 The Basics of Decision Trees</h3>
-
 <h3 id="8.2">8.2 Bagging, Random Forests, Boosting</h3>
 
 
-## Chapter 9
+<h2 id="9">9 Support Vector Machines</h2>
 
-## Chapter 10
+<h3 id="9.0">9.0 Introduction</h3>
+<h3 id="9.1">9.1 Maximal Margin Classifier</h3>
+<h3 id="9.2">9.2 Support Vector Classfiers</h3>
+<h3 id="9.3">9.3 Support Vector Machines</h3>
+<h3 id="9.4">9.4 SVMs with More than Two Classes</h3>
+<h3 id="9.5">9.5 Relationship to Logistic Regression</h3>
+
+
+<h2 id="10">10 Unsupervised Learning</h2>
+<h3 id="10.0">10.0 Introduction</h3>
+<h3 id="10.1">10.1 The Challenge of Unsupervised Learning</h3>
+<h3 id="10.2">10.2 Principal Components Analysis</h3>
+<h3 id="10.3">10.3 Clustering Methods</h3>
