@@ -40,3 +40,5 @@ tags: [Mac, Configure]
 ```
 alias python3="/Library/Frameworks/Python.framework/Versions/3.7/bin/python3.7"
 ``` 
+
+- Change the username of Git, from the personal git username to umn account. [UMN Github](github.umn.edu)
