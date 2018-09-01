@@ -23,19 +23,31 @@ I configured this based on the [guidance](https://code.tutsplus.com/tutorials/qu
 3. Connect using ssh key
 > ssh -T git@github.com 
 
+<<<<<<< HEAD
     In this step, an error message comes out to be **Permission denied**. To fix this problem, add the following content in the _config_ file. (If do not have a config file, just create one)
+=======
+In this step, an error message comes out to be **Permission denied**. To fix this problem, add the following content in the _config_ file. (If do not have a config file, just create one)
+>>>>>>> aafc4a456177f7a025315f3aa6dd0ef9364dcd8c
 ```
 #Default GitHub
 Host github.com
   HostName github.com
   User git
+<<<<<<< HEAD
   IdentityFile ~/.ssh/id_rsa_hotmail  # may change the name of rsa
+=======
+  IdentityFile ~/.ssh/id_rsa_hotmail  # may change the name of the rsa file
+>>>>>>> aafc4a456177f7a025315f3aa6dd0ef9364dcd8c
 ```
 Once again, 
 > ssh -T git@github.com 
 
+<<<<<<< HEAD
     and it works!
 
+=======
+and it works!
+>>>>>>> aafc4a456177f7a025315f3aa6dd0ef9364dcd8c
 
 4. Add my UMN github account. Following the same procedure as above, then add the following content to the _config_ file.
 ```
@@ -59,6 +71,10 @@ Then use the following command to connect using ssh.
 > 
 > git push -u origin master
 
+<<<<<<< HEAD
     For work account, just replace **github.com** with **github-UMN** and change the corresponding username.
+=======
+For work account, just replace **github.com** with **github-UMN** and change the corresponding username.
+>>>>>>> aafc4a456177f7a025315f3aa6dd0ef9364dcd8c
 
 
