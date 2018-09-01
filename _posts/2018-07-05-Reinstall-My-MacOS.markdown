@@ -105,4 +105,9 @@ I updated the macOS according to the App Store instruction. Nothing strange happ
 
 14. Disable macOS automatically updates notification in App Store Preferences.
 
+15. Set the outside keyboard.
+    - System Preferences -> keyboard
+    - choose the external keyboard and choose to modify keys
+    - exchange the **option** and **command**.
+
 
