@@ -11,6 +11,8 @@ tags: [Markdown, Syntax]
 
 These markdown notes are referenced from [Markdown Basics](https://daringfireball.net/projects/markdown/basics), [Github Guides](https://guides.github.com/features/mastering-markdown/) and [Writing on Github](https://help.github.com/categories/writing-on-github/).
 
+Click here for this [markdown source file](https://raw.githubusercontent.com/yuyang-yy/yuyang-yy.github.io/master/_posts/2018-07-06-Markdown-Notes.markdown)
+
 # HEADERS
 There are two styles of headers: Setext and atx.
 
