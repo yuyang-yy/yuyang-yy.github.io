@@ -9,8 +9,7 @@ comments: true
 tags: [Git, Github]
 ---
 
-After being confused by Git for almost 3 months, I have finally decided to write notes about Git to 
-keep me familiar with Git and Github. These notes are acquired through reading [Github 入门与实践](https://book.douban.com/subject/26462816/).
+One of the main book I referred is [Github 入门与实践](https://book.douban.com/subject/26462816/).
 
 ### Work with Github and Multiple accounts
 I configured this based on the [guidance](https://code.tutsplus.com/tutorials/quick-tip-how-to-work-with-github-and-multiple-accounts--net-22574).
@@ -61,3 +60,9 @@ Then use the following command to connect using ssh.
     For work account, just replace **github.com** with **github-UMN** and change the corresponding username.
 
 
+### Add the sharable download URL for files in Github.
+
+Referenced from https://help.data.world/hc/en-us/articles/115006300048-GitHub-how-to-find-the-sharable-download-URL-for-files-on-GitHub.
+
+Just use the following to format:
+> https://raw.githubusercontent.com/user/repository/branch/filename
