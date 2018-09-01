@@ -23,7 +23,6 @@ Or, I could just use `ssh x.500@compute.cla.umn.edu` to log in **compute**. Do r
 
 3. In order to use **wts**, the software to download is *Microsoft Remote Desktop 8*, not *Microsoft Remote Desktop 10*, since the guidance on the [univ wts](https://cbs.umn.edu/info/internal-resources/faculty-staff/rlt/guides/wts#Mac) is based on version 8. Besides, the vpn should be connected beforehand.
 
+## Parallel Computing
 
-## Parallel Using R
-
-1. 
+The main instruction of this short course is on [Charles Geyer's website](https://cjgeyer.github.io/Orientation2018/).

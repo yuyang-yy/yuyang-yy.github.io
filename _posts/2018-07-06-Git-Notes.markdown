@@ -11,3 +11,54 @@ tags: [Git, Github]
 
 After being confused by Git for almost 3 months, I have finally decided to write notes about Git to 
 keep me familiar with Git and Github. These notes are acquired through reading [Github 入门与实践](https://book.douban.com/subject/26462816/).
+
+### Work with Github and Multiple accounts
+I configured this based on the [guidance](https://code.tutsplus.com/tutorials/quick-tip-how-to-work-with-github-and-multiple-accounts--net-22574).
+
+1. Set the ssh for my personal github account.
+> ssh-keygen -t rsa -C "your github account email"
+
+2. Add the id_rsa.pub file in the SSH of **Setting** on github website.
+
+3. Connect using ssh key
+> ssh -T git@github.com 
+
+    In this step, an error message comes out to be **Permission denied**. To fix this problem, add the following content in the _config_ file. (If do not have a config file, just create one)
+```
+#Default GitHub
+Host github.com
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/id_rsa_hotmail  # may change the name of rsa
+```
+Once again, 
+> ssh -T git@github.com 
+
+    and it works!
+
+
+4. Add my UMN github account. Following the same procedure as above, then add the following content to the _config_ file.
+```
+#Default GitHub
+Host github-UMN
+  HostName github.umn.edu
+  User git
+  IdentityFile ~/.ssh/id_rsa_UMN  
+```
+Then use the following command to connect using ssh.
+> ssh -T git@github-UMN
+
+5. To push the repository to the personal github account
+> git init
+>
+> git commit -am "first commit"
+>
+> (contents of other commits) # remember this could not be empty, or errors would come out. You must have got something to commit.
+> 
+> git remote add origin git@github.com:username/test.git
+> 
+> git push -u origin master
+
+    For work account, just replace **github.com** with **github-UMN** and change the corresponding username.
+
+
