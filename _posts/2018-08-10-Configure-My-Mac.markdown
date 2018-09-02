@@ -41,4 +41,8 @@ tags: [Mac, Configure]
 alias python3="/Library/Frameworks/Python.framework/Versions/3.7/bin/python3.7"
 ``` 
 
-- Change the username of Git, from the personal git username to umn account. [UMN Github](github.umn.edu)
+- Set multiple accounts in Git, by using ssh to connect. Refer details in [Git Notes](https://yuyang-yy.github.io/Git-Notes/).
+
+- Open the firewall of Mac in order to allow **box** to work. (On the **Security & Privacy** part in **System Preferences**)
+
+- Change the port of the *jekyll* blog to 5000, since the previous port 4000 conflicts with *Nomachine* and *box*.
