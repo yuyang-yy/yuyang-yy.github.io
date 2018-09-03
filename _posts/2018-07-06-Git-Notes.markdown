@@ -66,3 +66,7 @@ Referenced from https://help.data.world/hc/en-us/articles/115006300048-GitHub-ho
 
 Just use the following to format:
 > https://raw.githubusercontent.com/user/repository/branch/filename
+
+### Upload files to Github
+
+If a repository is empty, then files could not be uploaded. Either add a README.md, either commit for once.
