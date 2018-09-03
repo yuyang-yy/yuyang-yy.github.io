@@ -58,3 +58,10 @@ alias python3="/Library/Frameworks/Python.framework/Versions/3.7/bin/python3.7"
     open -a Terminal "`pwd`"
     ```
     2. Xcode Preferences -> Behaviors -> User '+' to add a new behavior -> set the shortcuts -> in the right pane *Run*, choose to run *openTerminal.sh*.
+
+- Adjust the font sizes. 
+    1. Close all of the projects
+    2. Select the items that need font change
+    3. Change the font and size. [See details.](https://stackoverflow.com/questions/1339706/how-to-increase-font-size-in-the-xcode-editor)
+
+
