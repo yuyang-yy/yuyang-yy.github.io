@@ -110,4 +110,5 @@ I updated the macOS according to the App Store instruction. Nothing strange happ
     - choose the external keyboard and choose to modify keys
     - exchange the **option** and **command**.
 
+16. Install Xcode, Dropbox, Google Drive, NoMachine(for **lts**), Box Sync, Cisco(for **vpn**), Mircosoft Remote Desktop(for **wts**), Fugu, Canon IJ Scan Utility Lite(for **printer**), Be Focused Pro, Evernote, Zotero, Praat(for **GRAD 5105**).
 
