@@ -46,3 +46,15 @@ alias python3="/Library/Frameworks/Python.framework/Versions/3.7/bin/python3.7"
 - Open the firewall of Mac in order to allow **box** to work. (On the **Security & Privacy** part in **System Preferences**)
 
 - Change the port of the *jekyll* blog to 5000, since the previous port 4000 conflicts with *Nomachine* and *box*.
+
+
+## Configuration in softwares
+
+### Xcode
+- Add the terminal shortcut: command + `
+    1. write a shell file containing the following two lines, in my case, I save it as *openTerminal.sh*.
+    ```
+    #!/bin/bash
+    open -a Terminal "`pwd`"
+    ```
+    2. Xcode Preferences -> Behaviors -> User '+' to add a new behavior -> set the shortcuts -> in the right pane *Run*, choose to run *openTerminal.sh*.
