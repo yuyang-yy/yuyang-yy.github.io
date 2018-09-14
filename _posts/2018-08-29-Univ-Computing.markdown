@@ -9,7 +9,7 @@ comments: true
 tags: [tag1, tag2]
 ---
 
-## Basic Tech
+## Basic Tech 
 
 1. There are two ways to connect to **lts**. (just see the guidance on [Research Computing Resources](http://latis.umn.edu/services-and-programs/research-support/research-planning/additional-research-resources))
     - `ssh x.500@apollo.cla.umn.edu` or `ssh x.500@athena.cla.umn.edu`
