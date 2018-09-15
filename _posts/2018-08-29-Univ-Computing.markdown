@@ -4,7 +4,7 @@ title: Univ computing
 author: yuyang
 date: 2018-08-29
 description:  This note is about the detail of how to use the computing resource in the university.
-img: (name of the picture).jpg
+img: computing.jpg
 comments: true
 tags: [tag1, tag2]
 ---
