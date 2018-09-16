@@ -154,3 +154,5 @@ Content from cell 1 | Content from cell 2
 First column | Second column
 
 
+# Tips for Markdown
+1. Use Markdown TOC extension in VSCode to insert table of contents automatically.
