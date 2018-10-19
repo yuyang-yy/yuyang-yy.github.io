@@ -9,7 +9,7 @@ comments: true
 tags: [Organize, Productivity]
 ---
 
-This blog contains several tipe to help organize my day. See references below.
+This blog contains several tips to help organize my day. See references below.
 
 [5 Tips to Organize Your Day for Maximum Productivity](https://www.huffingtonpost.com/daniel-scalco/productivity-tips_b_7608084.html)
 
