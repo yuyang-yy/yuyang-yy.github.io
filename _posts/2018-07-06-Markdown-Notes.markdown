@@ -118,6 +118,8 @@ When the image source is a link:
 When the image source is one folder:
 ![Image of bulb](/assets/img/bulb.jpg)
 
+Align two pictures in one row: (use pipe)
+![](/assets/img/all-at-once.jpg) | ![A little every day](/assets/img/a-little-every-day.jpg)
 
 # CODE
 
