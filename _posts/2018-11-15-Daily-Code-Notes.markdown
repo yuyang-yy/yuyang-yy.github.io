@@ -30,3 +30,24 @@ plot()
 par(new = TRUE)
 plot()
 ```
+
+#### Nov. 16
+1. Add MathJax in order to compile $\LaTeX$ in markdown. Add the following script to the _includes/head.html
+```
+ <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        inlineMath: [['$','$']]
+      }
+    });
+  </script>
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script> 
+```
+
+2. Align two pictures in one row in markdown. Do remember to insert a blank line above and below the code.
+```
+
+![picture1](address) | ![picture2](address)
+
+```
