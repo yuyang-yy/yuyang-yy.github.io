@@ -73,7 +73,9 @@ Next Actions:
 
 ## Chapter 3
 
-- L-mode and R-mode. R-mode sees forest; L-mode sees trees.
+- L-mode and R-mode. R-mode sees forest; L-mode sees trees. When one CPU takes the resources, the other cannot use.
+
+![shared-bus-theory](/assets/img/shared-bus-theory.jpg)
 
 ![L-mode](/assets/img/l-mode.jpg) | ![R-mode](/assets/img/r-mode.jpg)
 
@@ -105,6 +107,8 @@ Try This:
 - [ ] Make a conscious effort to learn something new primarily by synthesis, instead of analysis.
 - [ ] Try creating your next software design away from the keyboard and monitor.
 
+
+##
 
 
 
