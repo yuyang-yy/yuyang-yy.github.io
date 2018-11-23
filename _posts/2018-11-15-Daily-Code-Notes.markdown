@@ -51,3 +51,9 @@ plot()
 ![picture1](address) | ![picture2](address)
 
 ```
+
+#### Nov. 17
+1. Merge two data frames in R
+``` r
+merge(x, y, by = "ID", all.x = TRUE, all.y = TRUE)
+```
