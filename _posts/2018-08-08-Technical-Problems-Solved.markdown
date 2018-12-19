@@ -24,3 +24,23 @@ After reading the guidance on the [stackoverflow post](https://stackoverflow.com
 ```
 defaults write org.R-project.R force.LANG en_US.UTF-8
 ```
+
+2. To use the LightGBM for multi-threading, I installed OpenMP. But after that, I cannot use XGBoost again. Not after restarting the computer and reinstall the package on Anaconda. Whenever I tried to import XGBoost, the following error would occur:
+```
+/anaconda3/lib/python3.6/site-packages/xgboost/core.py in <module>()
+    134 
+    135 # load the XGBoost library globally
+```
+The posts said it's due to the gcc version. To solve this problem, I referenced [Installing XGBoost on Mac OSX](https://www.ibm.com/developerworks/community/blogs/jfp/entry/Installing_XGBoost_on_Mac_OSX?lang=en) to fix this problem.
+
+The gcc version of my mac is 8, so I used the following code.
+```
+export CC = gcc-8
+export CXX = g++-8
+```
+I tried to use `gcc --version`, but the result is version 9, which is not right. So I tried to use `brew install gcc` and it told me the version is 8.
+
+By the way, the directory of anaconda packages is 
+```
+/anaconda3/lib/python3.6/site-packages/
+```
