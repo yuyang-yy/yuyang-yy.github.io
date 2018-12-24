@@ -20,8 +20,8 @@ Most of the latex notes are referenced in the book [LATEX Tutorials: A PRIMER](h
 - There seems to be some difference between \\ and **enter**.
 
 - Insert python code with highlighting.
-	Use the following to before `\begin{document}`
-	``` 
+Use the following to before `\begin{document}`.
+	```
 	% settings for python code
 	\usepackage[utf8]{inputenc}
 	\DeclareFixedFont{\ttb}{T1}{txtt}{bx}{n}{10} % for bold
@@ -52,9 +52,8 @@ Most of the latex notes are referenced in the book [LATEX Tutorials: A PRIMER](h
 			\pythonstyle
 			\lstinputlisting[#1]{#2}}}
 	\newcommand\pythoninline[1]{{\pythonstyle\lstinline!#1!}}
-
 	```
-	And use `\pythonexternal{../notebooks/Classification.py}` to insert the python code from outside source.
+And use `\pythonexternal{../notebooks/Classification.py}` to insert the python code from outside source.
 
 - Insert figures. [reference](https://www.latex-tutorial.com/tutorials/figures/)
 	```
@@ -92,22 +91,22 @@ Most of the latex notes are referenced in the book [LATEX Tutorials: A PRIMER](h
 
 - Insert tables.
 	```
-		\begin{table}[h!]
-			\begin{center}
-				\caption{New Feature Performace Boost}
-				\label{tab:performance_boost}
-				\begin{tabular}{|c|c|} 
-					\hline
-					\textbf{Feature} & \textbf{Performance Boost}\\
-					\hline
-					Latitude and longitude & 0.001\\
-					Rating Per Claim & 0.0017 \\
-					Interest Rate & 0.0007\\
-					Count of missing values & 0.0004\\
-					\hline
-				\end{tabular}
-			\end{center}
-		\end{table}
+	\begin{table}[h!]
+		\begin{center}
+			\caption{New Feature Performace Boost}
+			\label{tab:performance_boost}
+			\begin{tabular}{|c|c|} 
+				\hline
+				\textbf{Feature} & \textbf{Performance Boost}\\
+				\hline
+				Latitude and longitude & 0.001\\
+				Rating Per Claim & 0.0017 \\
+				Interest Rate & 0.0007\\
+				Count of missing values & 0.0004\\
+				\hline
+			\end{tabular}
+		\end{center}
+	\end{table}
 	```
 
 - Insert a new page.
