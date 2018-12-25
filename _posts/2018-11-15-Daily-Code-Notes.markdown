@@ -33,7 +33,7 @@ plot()
 
 #### Nov. 16
 1. Add MathJax in order to compile $\LaTeX$ in markdown. Add the following script to the _includes/head.html
-```
+``` html
  <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
       tex2jax: {
@@ -46,11 +46,9 @@ plot()
 ```
 
 2. Align two pictures in one row in markdown. Do remember to insert a blank line above and below the code.
-```
-
+~~~~
 ![picture1](address) | ![picture2](address)
-
-```
+~~~~
 
 #### Nov. 17
 1. Merge two data frames in R
