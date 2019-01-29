@@ -20,7 +20,7 @@ tags: [html, css]
     <body>
         <h1>Head 1</h1>
         <h2>Head 2</h2>
-        <p>This is a paragraph.<span>a part in the paragragh.</span></p>
+        <p>This is a paragraph.<span>a part in the paragragh.</span> Inside this paragragh, we could use <em>italics</em> and <strong>bold</strong> to emphasize words.</p>
         <a href="">a link</a>
 
         <!-- image -->
@@ -92,6 +92,7 @@ p.class {
     overflow: auto; /* scroll, hidden, visible */
 }
 .class li {
+    box-sizing: content-box; /* border-box */
 }
 /* resetting defaults */
 * {
