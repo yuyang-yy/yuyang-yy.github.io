@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Name of the Blog
+title: Some thoughts about Statistics
 author: yuyang
 date: 2019-01-01
 description:  My recent thinking about what Statistics is about and what problems my major courses focus to solve.
