@@ -70,3 +70,14 @@ Just use the following to format:
 ### Upload files to Github
 
 If a repository is empty, then files could not be uploaded. Either add a README.md, either commit for once.
+
+### combine two commits
+> git rebase -i HEAD~2
+Then change `pick` to `fixup`.
+
+### Revert to previous commit
+> git reset --hard 23780769395fae
+
+### Delete the commits in Github
+First delete local commits, then 
+> git push --force
