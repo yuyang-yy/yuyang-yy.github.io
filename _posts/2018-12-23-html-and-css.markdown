@@ -10,7 +10,7 @@ tags: [html, css]
 ---
 
 ## HTML Notes
-The week 1 notes for the edX course: Programming for the Web with Javascript can be found [here](https://raw.githubusercontent.com/yuyang-yy/materials/master/html/index.html) or [here]({{site.baseurl}}/assets/htmls/html-learning.html).
+The week 1 notes for the edX course: Programming for the Web with Javascript can be found [here]({{site.baseurl}}/assets/htmls/html-learning.html). Or you could directly view the [source code](https://raw.githubusercontent.com/yuyang-yy/materials/master/html/index.html).
 
 ## HTML
 ``` html
