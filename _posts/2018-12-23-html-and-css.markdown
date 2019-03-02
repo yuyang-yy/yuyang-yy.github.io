@@ -12,6 +12,9 @@ tags: [html, css]
 ## HTML Notes
 The week 1 notes for the edX course: Programming for the Web with Javascript can be found [here]({{site.baseurl}}/assets/htmls/html-learning.html). Or you could directly view the [source code](https://raw.githubusercontent.com/yuyang-yy/materials/master/html/index.html).
 
+## JavaScript Notes
+The notes of a YouTube online course [Learn JavaScript - Full Course for Beginners](https://www.youtube.com/watch?v=PkZNo7MFNFg&t=11105s) is [here]({{site.baseurl}}/assets/code/js-learning.js).
+
 ## HTML
 ``` html
 <!DOCTYPE html>
