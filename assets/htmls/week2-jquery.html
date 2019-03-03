@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>jQuery Learning</title>
+        <script src="jquery.js"></script>
+    </head>
+    <body>
+        <!-- Click -->
+
+        <button id="clickMe">Click Me!</button>
+        <p>You have clicked the button <span id="numClicks">0 times</span>.</p>
+
+        <script>
+        var clicks = 0;
+        function clickHandler() {
+            clicks ++;
+            var numClicksSpan = $('#numClicks');
+            if (clicks == 1) {
+                numClicksSpan.html('once');
+            } else {
+                numClicksSpan.html(clicks + ' times');
+            }
+        }
+        $('#clickMe').click(clickHandler);
+        </script>
+
+
+        <!-- Keyup -->
+        <input id="itemField">
+        <ul>
+        <span id="list"></span>
+        </ul>
+
+        <script>
+        function keyPressHandler(e) {
+            if (e.keyCode == 13) {  // keyCode
+                $('#list').append('<li>' + $('#itemField').val() + '</li>');
+                $('#itemField').val('');
+            }
+        }
+        $('#itemField').keyup(keyPressHandler);
+        </script>
+
+
+        <!-- Multiple functions on one object -->
+        <div>
+            <ul>
+                <li class="highlight">dog</li>
+                <li class="highlight">cat</li>
+                <li>elephant</li>
+                <li>bear</li>
+            </ul>
+        </div>
+         <script>
+         $('li.highlight').on({
+             mouseenter: function() {
+                 $(this).css('color', 'red');
+                 $(this).css('font-weight', 'bold');
+             },
+             mouseleave: function() {
+                $(this).css('color', 'black');
+                $(this).css('font-weight', 'normal');
+             },
+             click: function() {
+                 $(this).css('background-color', 'yellow');
+             }
+         });
+         </script>
+
+         <!-- Forms -->
+         <form>
+             <select name="gender">
+                 <option value="male">Male</option>
+                 <option value="female">Female</option>
+                 <option value="other">Other</option>
+             </select>
+             
+             <br>
+             <input type="radio" name="species" value="dog">Dog</input>
+             <input type="radio" name="species" value="cat">Cat</input>
+             <input type="radio" name="species" value="bird">Bird</input>
+             
+             <br>
+             <input type="checkbox" name="features" value="happy">Happy</input>
+             <input type="checkbox" name="features" value="cute">Cute</input>
+             <input type="checkbox" name="features" value="smart">Smart</input>
+         </form>
+
+         <p>I'd like to buy a new <span id="featureSpan"></span> 
+            <span id="genderSpan"></span> <span id="animalSpan">animal</span>.
+        </p>
+        
+        <script>
+        // handling select box
+        $("select[name='gender']").change(function() {
+            $('#genderSpan').html($(this).val());
+        });
+
+        // handling radio buttons
+        $("input:radio[name='species']").change(function(){
+            if ($(this).prop('checked')) {
+                $('#animalSpan').html($(this).val());
+            }
+        });
+
+        // handling checkbox buttons
+        var allChecked = [];
+        $("input:checkbox[name='features']").change(function() {
+            var value = $(this).val();
+            if ($(this).prop('checked')) {
+                allChecked.push(value);
+            } else {
+                var index = allChecked.indexOf(value);
+                if (index != -1) {
+                    allChecked.splice(index, 1);
+                }
+            }
+            
+            $('#featureSpan').html('');
+            for (var i=0; i < allChecked.length; i++) {
+                $('#featureSpan').append(allChecked[i]);
+                if (i < allChecked.length - 1) {
+                    $('#featureSpan').append(', ');
+                } else {
+                    $('#featureSpan').append(' ');
+                }
+            }
+        });
+        </script>
+    </body>
+</html>
