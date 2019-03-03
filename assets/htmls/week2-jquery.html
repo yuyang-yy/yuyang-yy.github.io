@@ -3,6 +3,20 @@
     <head>
         <title>jQuery Learning</title>
         <script src="jquery.js"></script>
+        <style>
+        .errorBox {
+            border: 2px solid red;
+        }
+        .successBox {
+            border: 2px solid green;
+        }
+        .error {
+            color: red;
+        }
+        .success {
+            color: green;
+        }
+        </style>
     </head>
     <body>
         <!-- Click -->
@@ -92,7 +106,7 @@
         
         <script>
         // handling select box
-        $("select[name='gender']").change(function() {
+        $("select[name='gender']").change(function() {  // name='gender', not name=='gender'
             $('#genderSpan').html($(this).val());
         });
 
@@ -116,7 +130,7 @@
                 }
             }
             
-            $('#featureSpan').html('');
+            $('#featureSpan').html('');  // don't forget this line
             for (var i=0; i < allChecked.length; i++) {
                 $('#featureSpan').append(allChecked[i]);
                 if (i < allChecked.length - 1) {
@@ -127,5 +141,48 @@
             }
         });
         </script>
+
+
+        <!-- Validate password -->
+        <!-- check the style file in the header -->
+
+        <input type="password" name="password">
+        <br>
+        <span id="errorMessage" class = "error" hidden>Please fix the following errors: </span>
+        <ul>
+            <li id="length10" class = "error" hidden>The password must be at least 10 characters long.</li>
+            <li id="number" class = "error" hidden>The password must contain numbers.</li>
+        </ul>
+        <span id="successMessage" class="success" hidden>Password vefied!</span>
+        <br>
+        <button name="submit">Validate Password</button>
+
+        <script>
+        
+        $("button[name='submit']").click(function() {  // [] should be in a couple.
+            var passwordField = $("input:password[name='password']");
+            var password = passwordField.val();
+            var isFine = true;  // these three lines should be inside the function
+            if (password.length < 10) {
+                isFine = false;
+                $('#length10').show();
+            }
+            if (! /\d/.test(password)) {
+                isFine = false;
+                $('#number').show();
+            }
+            if (isFine) {
+                $('.error').hide();
+                $('#successMessage').show();
+                passwordField.removeClass('errorBox').addClass('successBox');
+            } else {
+                $('#successMessage').hide();
+                $('#errorMessage').show();
+                passwordField.removeClass('successBox').addClass('errorBox');
+            }
+            return false;
+        });
+        </script>
+            
     </body>
 </html>
