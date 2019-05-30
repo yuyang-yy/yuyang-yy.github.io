@@ -35,7 +35,6 @@ Note that some of the features are available only for the business account.
 
 2. Tools for Google Sheets
     - Explore
-    -
 
 3. Tools for Google Slides
     - Explore
@@ -56,11 +55,11 @@ Remember that Google allows communication among G-Suite, so we can use the resul
 2. Create notes and links.
 
 ## Google Apps script
-Goal: Make buttons that push themselves; automate small or repeatable tasks
-Base: G Suite Apps; JavaScript; script.google.com
-Example: (1)Grab information from a website; (2)Spreadsheet Updater + Email Sender
-Resources: https://developers.google.com/apps-script/; 
-https://ctrlq.org/dev/google-apps-script
+1. Goal: Make buttons that push themselves; automate small or repeatable tasks
+2. Base: G Suite Apps; JavaScript; script.google.com
+3. Example: (1)Grab information from a website; (2)Spreadsheet Updater + Email Sender
+4. Resources: [Google Apps Script](https://developers.google.com/apps-script/); 
+[Some interesting implementations](https://ctrlq.org/dev/google-apps-script)
 
 ## Google Drive Structure
 1. Access
