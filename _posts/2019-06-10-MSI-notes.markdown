@@ -1,0 +1,18 @@
+---
+layout: post
+title: MSI Notes
+author: yuyang
+date: 2019-06-10
+description:  The notes about how to use MSI
+img: (name of the picture).jpg
+comments: true
+tags: [MSI, Computing]
+---
+
+1. [Jupyter Notebook](https://www.msi.umn.edu/support/faq/how-do-i-get-started-jupyter-notebooks)
+2. [FileZilla](https://www.msi.umn.edu/support/faq/how-do-i-use-filezilla-transfer-data) to transfer data files.
+3. [Cuda](https://www.msi.umn.edu/sw/cuda) and [GPU number setting](https://github.com/allenai/allennlp/issues/1090)
+
+
+## Question to ask MSI staff
+1. How to configure the environment for Jupyter notebook? Can I start Jupyter notebook in one environment?
