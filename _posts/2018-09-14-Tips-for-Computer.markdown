@@ -11,3 +11,8 @@ tags: [Shortcuts]
 
 ## About using Mac
 - Display desktop: (1) Command + F3; (2) fn + F11.
+
+## New features in MacOS Mojave
+- Dark mode
+- Screenshots: shift + command + 5
+- Stacks: Finder menu bar > View > Use Groups
