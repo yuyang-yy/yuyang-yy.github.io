@@ -34,6 +34,7 @@ arrayOfLines = fr.readlines(fr)
 ```{python}
 mat = empty(3, 2)
 ```
+3. When showing syntaxError, check the parenthesis.
 
 
 ## Python Notes
@@ -42,3 +43,4 @@ mat = empty(3, 2)
 import importlib
 importlib.reload(module)
 ```
+2. `os.path.dirname(__file__)` works in .py file but not in ipython or Jupyter notebook. In Jupyter notebook, directly use the relative path.
