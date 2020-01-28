@@ -63,6 +63,7 @@ Then use the following command to connect using ssh.
 Firstly, start the ssh-agent in the background.
 > eval "$(ssh-agent -s)"
 
+<<<<<<< HEAD
     Then, rewrite the `~/.ssh/config` file.
     ```
     # UMN account
@@ -76,6 +77,21 @@ Firstly, start the ssh-agent in the background.
 
     Finally, add the SSH key to the ssh-agent.
     > ssh-add -K ~/.ssh/id_rsa_UMN
+=======
+Then, rewrite the `~/.ssh/config` file.
+```
+# UMN account
+Host github.umn.edu
+  HostName github.umn.edu
+  User git
+  IdentityFile ~/.ssh/id_rsa_UMN
+  AddKeysToAgent yes
+  UseKeychain yes
+```
+
+Finally, add the SSH key to the ssh-agent.
+> ssh-add -K ~/.ssh/id_rsa_UMN
+>>>>>>> b80a7e8ae853cf1dd4a1b5ad6f7aace8b0038617
 
 
 ### Add the sharable download URL for files in Github.
