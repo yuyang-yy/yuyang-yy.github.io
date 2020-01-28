@@ -38,13 +38,13 @@ Host github.com
 4. Add my UMN github account. Following the same procedure as above, then add the following content to the _config_ file.
 ```
 #Default GitHub
-Host github-UMN
+Host github.umn.edu
   HostName github.umn.edu
   User git
   IdentityFile ~/.ssh/id_rsa_UMN  
 ```
 Then use the following command to connect using ssh.
-> ssh -T git@github-UMN
+> ssh -T git@github.umn.edu
 
 5. To push the repository to the personal github account
 > git init
@@ -57,7 +57,25 @@ Then use the following command to connect using ssh.
 > 
 > git push -u origin master
 
-    For work account, just replace **github.com** with **github-UMN** and change the corresponding username.
+    For work account, just replace **github.com** with **github.umn.edu** and change the corresponding username.
+
+6. To save the passphrase in the Keychain so that you don't have to enter the passphrase every time you want to push to Github. Check [Adding your SSH key to the ssh-agent](https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#adding-your-ssh-key-to-the-ssh-agent) for detail. 
+Firstly, start the ssh-agent in the background.
+> eval "$(ssh-agent -s)"
+
+Then, rewrite the `~/.ssh/config` file.
+```
+# UMN account
+Host github.umn.edu
+  HostName github.umn.edu
+  User git
+  IdentityFile ~/.ssh/id_rsa_UMN
+  AddKeysToAgent yes
+  UseKeychain yes
+```
+
+Finally, add the SSH key to the ssh-agent.
+> ssh-add -K ~/.ssh/id_rsa_UMN
 
 
 ### Add the sharable download URL for files in Github.
