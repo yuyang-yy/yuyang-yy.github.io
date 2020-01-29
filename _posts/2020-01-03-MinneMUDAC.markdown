@@ -23,7 +23,7 @@ This blog will not talk in detail about the results of our model, but will focus
 The objective of this project is to investigate the factors that influence the soybean futures closing prices and predict soybean closing prices for 5 days: November 4-8th, and for 3 contract months: March, May, and July 2020.
 
 ## Our Work
-Credit goes to the whole team: Somyi Baek, Cora Crown, Sarah Milstein, Yu Yang.
+Credit goes to the whole team: **Somyi Baek, Cora Crown, Sarah Milstein, Yu Yang**.
 
 ### Data Pipeline
 Data is the most critical part in our project. Large portion of time was spent on collecting and processing data. There are three stages: data gathering, feature engineering, and stationarizing & scaling.

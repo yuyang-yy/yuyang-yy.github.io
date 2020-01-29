@@ -11,7 +11,7 @@ tags: [Git, Github]
 
 One of the main book I referred is [Github 入门与实践](https://book.douban.com/subject/26462816/).
 
-### Work with Github and Multiple accounts
+## Work with Github and Multiple accounts
 I configured this based on the [guidance](https://code.tutsplus.com/tutorials/quick-tip-how-to-work-with-github-and-multiple-accounts--net-22574). Here is [another better instruction](https://medium.freecodecamp.org/manage-multiple-github-accounts-the-ssh-way-2dadc30ccaca).
 
 1. Set the ssh for my personal github account.
@@ -63,7 +63,6 @@ Then use the following command to connect using ssh.
 Firstly, start the ssh-agent in the background.
 > eval "$(ssh-agent -s)"
 
-<<<<<<< HEAD
     Then, rewrite the `~/.ssh/config` file.
     ```
     # UMN account
@@ -77,42 +76,47 @@ Firstly, start the ssh-agent in the background.
 
     Finally, add the SSH key to the ssh-agent.
     > ssh-add -K ~/.ssh/id_rsa_UMN
-=======
-Then, rewrite the `~/.ssh/config` file.
-```
-# UMN account
-Host github.umn.edu
-  HostName github.umn.edu
-  User git
-  IdentityFile ~/.ssh/id_rsa_UMN
-  AddKeysToAgent yes
-  UseKeychain yes
-```
-
-Finally, add the SSH key to the ssh-agent.
-> ssh-add -K ~/.ssh/id_rsa_UMN
->>>>>>> b80a7e8ae853cf1dd4a1b5ad6f7aace8b0038617
 
 
-### Add the sharable download URL for files in Github.
+## Collaborate on Git and Github
+1. Set up collaboration on Github
+    I referred to this [post](https://medium.com/@jonathanmines/the-ultimate-github-collaboration-guide-df816e98fb67). For team creater, after creating the repo, go to `Settings -> Collaborators`, add the collaborators you want. Abd for collaborators, git clone the repo, and **do not fork it**, then you are ready to go.
 
-Referenced from https://help.data.world/hc/en-us/articles/115006300048-GitHub-how-to-find-the-sharable-download-URL-for-files-on-GitHub.
+2. Always remember to `git pull` before making modification.
 
-Just use the following to format:
-> https://raw.githubusercontent.com/user/repository/branch/filename
+3. Replace master branch with another branch entirely. 
+  Check this [post](https://stackoverflow.com/questions/2862590/how-to-replace-master-branch-in-git-entirely-from-another-branch) for more detail.
+  The idea is to use "ours" merge strategy.
+    ```
+    git checkout newbranch
+    git merge -s ours master
+    git checkout master
+    git merge newbranch
+    ```
 
-### Upload files to Github
 
-If a repository is empty, then files could not be uploaded. Either add a README.md, either commit for once.
-
-### combine two commits
-> git rebase -i HEAD~2
+## Git quicknotes
+1. combine two commits
+  > git rebase -i HEAD~2
 
     Then change `pick` to `fixup`.
 
-### Revert to previous commit
+2. Revert to previous commit
 > git reset --hard 23780769395fae
 
-### Delete the commits in Github
+3. Delete the commits in Github
 First delete local commits, then 
 > git push --force
+
+
+
+## Github quicknotes
+1. Add the sharable download URL for files in Github. 
+    Use the following to format:
+> https://raw.githubusercontent.com/user/repository/branch/filename
+
+2. Upload files to Github
+    If a repository is empty, then files could not be uploaded. Either add a README.md, either commit for once.
+
+
+
