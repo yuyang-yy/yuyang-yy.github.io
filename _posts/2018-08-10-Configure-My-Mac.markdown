@@ -8,6 +8,14 @@ img: mac.jpg
 comments: true
 tags: [Mac, Configure]
 ---
+New updates are added to the front of this blog.
+
+## ssh config and .bash_aliases
+Update date: Feb. 19
+
+- Add shortcut to ssh, by modifying `.ssh/config`. For example, I can directly connect to the Lind cluster using `ssh cse-lind`. 
+- Create `~/.bash_aliases` file and create short cut in command line. [Reference](https://opensource.com/article/19/7/bash-aliases). Then run `source ~/.bash_profile`.
+
 ## Softwares installed
 
 - _**Daily Tools**_
