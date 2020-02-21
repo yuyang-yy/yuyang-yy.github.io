@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Name of the Blog
+title: R Packages
 author: yuyang
-date: yyyy-mm-dd
-description:  (optional)
-img: (name of the picture).jpg
+date: 2020-02-19
+description:  Create an R package, do tests, commit it to Github.
+img: r-package.jpg
 comments: true
-tags: [tag1, tag2]
+tags: [R, package]
 ---
 
 ### Create an R package

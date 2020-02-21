@@ -4,7 +4,7 @@ title: Cluster Notes
 author: yuyang
 date: 2019-06-10
 description:  The notes about how to use MSI, CSElabs, and other high performance computing.
-img: (name of the picture).jpg
+img: hpc-cluster.jpg
 comments: true
 tags: [MSI, CSElabs, Computing]
 ---
@@ -89,4 +89,7 @@ tags: [MSI, CSElabs, Computing]
     # '\W' adds the name of the current directory
     export PS1="$purple\u@$green\h\$(__git_ps1)$blue \W $ $reset"
     ```
-
+6. My modules are obsolete, and could not load `hpc/openmpi` module. After asking Prof. Saad for help, I got the solution. Edit `~/.bashrc` file. Change the `MODULESINIT` as the following.
+    ```
+    MODULESINIT="/soft/rko-modules/tcl/init/bash"
+    ```
