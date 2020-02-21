@@ -75,21 +75,21 @@ References:
     - When testing the equivalence of numbers, control the output precision when running it in R by `sprintf("%.20f", x)`, then paste the result to `expect_equal()`.
     - For other test statements, check the reference for more detail.
     - For example, create a test file `test_dxkcd.R` to test for `dxkcd` function.
-    ```
-    context("dxkcd")
-    library(xkcd)
+        ```
+        context("dxkcd")
+        library(xkcd)
 
-    test_that("the output is of the same length as max(len(y), len(sd.x))", {
-    expect_equal(length(dxkcd(0.1, 1)), 1)
-    expect_equal(length(dxkcd(0.1, c(1, 2, 3))), 3)
-    expect_equal(length(dxkcd(c(0.1, 0.12), c(1, 1.5, 2, 2.5))), 4)
-    expect_equal(length(dxkcd(c(0.1, 0.12, 0.13, 0.14), c(1, 1.5))), 4)
-    })
+        test_that("the output is of the same length as max(len(y), len(sd.x))", {
+        expect_equal(length(dxkcd(0.1, 1)), 1)
+        expect_equal(length(dxkcd(0.1, c(1, 2, 3))), 3)
+        expect_equal(length(dxkcd(c(0.1, 0.12), c(1, 1.5, 2, 2.5))), 4)
+        expect_equal(length(dxkcd(c(0.1, 0.12, 0.13, 0.14), c(1, 1.5))), 4)
+        })
 
-    test_that("the output is correct within tolerance", {
-        expect_equal(dxkcd(0.1, 1), 3.32703659106943439028)
-    })
-    ```
+        test_that("the output is correct within tolerance", {
+            expect_equal(dxkcd(0.1, 1), 3.32703659106943439028)
+        })
+        ```
 3. Run the tests. Change directory to the package directory, the one containing `NAMESPACE`. Open R script: `r --vanilla`.
     ```
     devtools::test()

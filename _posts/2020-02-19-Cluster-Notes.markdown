@@ -2,7 +2,7 @@
 layout: post
 title: Cluster Notes
 author: yuyang
-date: 2019-06-10
+date: 2020-02-19
 description:  The notes about how to use MSI, CSElabs, and other high performance computing.
 img: hpc-cluster.jpg
 comments: true
