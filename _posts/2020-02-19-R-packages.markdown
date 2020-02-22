@@ -101,3 +101,11 @@ References:
 1. Remove the R files that are used to generate the package skeleton.
 2. Add `.gitignore` file to the repository you want to commit. Check my [R.gitignore]( https://raw.githubusercontent.com/yuyang-yy/materials/master/config/R/R.gitignore).
 3. Take the usual steps to commit.
+
+
+### R's C Interface
+References:
+- [BST 140.776 Statistical Computing](http://www.biostat.jhsph.edu/~bcaffo/statcomp/)
+    - [C Programming I](https://www.biostat.wisc.edu/~kbroman/teaching/statprog/cprog1_ho.pdf)
+    - [C Programming II](https://www.biostat.wisc.edu/~kbroman/teaching/statprog/cprog2_ho.pdf)
+    - [C Programming III](https://www.biostat.wisc.edu/~kbroman/teaching/statprog/cprog3_ho.pdf)
