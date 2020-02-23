@@ -18,6 +18,7 @@ social-email: yuyang_96@hotmail.com # add your Email address
 
 # Tracker
 analytics: UA-120124186-1 # Google Analytics
+google-site-verification: p_cZK9Wf6cunTSTezwc3_RFkwAm3nVI9gF6CR5_lxqM
 
 # Build Settings
 markdown: kramdown
