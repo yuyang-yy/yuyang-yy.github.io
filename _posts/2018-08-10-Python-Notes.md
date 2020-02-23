@@ -6,6 +6,7 @@ date: 2018-08-10
 description:  This blog keep notes about python programming and configuration.
 img: python.jpg
 comments: true
+categories: [Programming]
 tags: [Python, programming]
 ---
 

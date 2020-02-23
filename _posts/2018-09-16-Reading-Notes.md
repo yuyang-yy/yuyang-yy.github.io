@@ -6,6 +6,7 @@ date: 2018-09-16
 description:  Notes about the books I have read or am reading.
 img: reading.jpg
 comments: true
+categories: [Reading]
 tags: [Reading]
 ---
 

@@ -6,6 +6,7 @@ date: 2018-10-06
 description:  This is the notes for a course on Coursera about Learning How to Learn.
 img: focused-diffused.jpg
 comments: true
+categories: [Reading]
 tags: [Learning, How to Learn]
 ---
 

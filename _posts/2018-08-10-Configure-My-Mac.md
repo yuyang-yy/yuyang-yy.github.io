@@ -6,6 +6,7 @@ date: 2018-08-10
 description:  This blog keep records of my configuration on the mac.
 img: mac.jpg
 comments: true
+categories: [System]
 tags: [Mac, Configure]
 ---
 New updates are added to the front of this blog.

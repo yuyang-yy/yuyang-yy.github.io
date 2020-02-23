@@ -6,6 +6,7 @@ date: 2020-02-22
 description:  Notes about the interaction between Python and R.
 img: python-r.jpg
 comments: true
+categories: [Programming]
 tags: [Python, R, Interface]
 ---
 

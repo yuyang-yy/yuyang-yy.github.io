@@ -6,6 +6,7 @@ date: 2020-02-19
 description:  Create an R package, do tests, commit it to Github.
 img: r-package.jpg
 comments: true
+categories: [Programming]
 tags: [R, package]
 ---
 

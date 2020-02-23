@@ -6,6 +6,7 @@ date: 2018-09-14
 description:  (optional)
 img: productivity.jpg
 comments: true
+categories: [Life]
 tags: [Organize, Productivity]
 ---
 

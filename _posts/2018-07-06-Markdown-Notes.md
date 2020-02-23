@@ -6,6 +6,7 @@ date: 2018-07-06
 description:  (optional)
 img: markdown.jpg
 comments: true
+categories: [Tools]
 tags: [Markdown, Syntax]
 ---
 

@@ -6,6 +6,7 @@ date: 2018-08-21
 description:  This blog keeps record of my first few days in UMN.
 img: umn_logo.jpg
 comments: true
+categories: [Life]
 tags: [UMN, new]
 ---
 

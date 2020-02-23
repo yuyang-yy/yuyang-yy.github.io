@@ -6,6 +6,7 @@ date: 2018-09-27
 description:  Notes of the fast.ai machine learning course
 img: fastai.jpg
 comments: true
+categories: [Research]
 tags: [Fastai, Kaggle, Notes]
 ---
 

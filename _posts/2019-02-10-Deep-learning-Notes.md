@@ -6,6 +6,7 @@ date: 2019-02-10
 description:  Notes about the book Deep Learning written by Ian Goodfellow, Yoshua Bengio, and Aaron Courville.
 img: deep-learning.jpg
 comments: true
+categories: [Research]
 tags: [Deep Learning]
 ---
 

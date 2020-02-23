@@ -6,6 +6,7 @@ date: 2018-08-15
 description:  This blog contains some advice for a PhD student or candidate.
 img: phd.jpg
 comments: true
+categories: [Life]
 tags: [PhD, Advice]
 ---
 

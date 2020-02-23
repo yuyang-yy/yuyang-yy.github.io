@@ -6,6 +6,7 @@ date: 2018-12-23
 description:  Notes on html and css.
 img: html_css.png
 comments: true
+categories: [Programming]
 tags: [html, css]
 ---
 

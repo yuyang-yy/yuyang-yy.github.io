@@ -6,6 +6,7 @@ date: 2019-06-06
 description:  (optional)
 img: tensorflow.png
 comments: true
+categories: [Research]
 tags: [TensorFlow, 2.0]
 ---
 

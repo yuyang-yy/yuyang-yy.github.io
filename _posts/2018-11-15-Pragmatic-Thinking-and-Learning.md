@@ -6,6 +6,7 @@ date: 2018-11-15
 description:  Notes of the book
 img: pragmatic-thinking.jpg
 comments: true
+categories: [Reading]
 tags: [Thinking, Learning]
 ---
 

@@ -6,6 +6,7 @@ date: 2019-07-15
 description:  (optional)
 img: gcp.jpeg
 comments: true
+categories: [System]
 tags: [Google Cloud]
 ---
 ### Connect to your instance

@@ -6,6 +6,7 @@ date: 2018-08-30
 description:  This is an Rmarkdown notes.
 img: rmarkdown.jpg
 comments: true
+categories: [Tools]
 tags: [Rmarkdown]
 ---
 

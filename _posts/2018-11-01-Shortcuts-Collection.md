@@ -6,6 +6,7 @@ date: 2018-11-01
 description:  A collection of shortcuts for different softwares.
 img: keyboard-shortcut.jpg
 comments: true
+categories: [Tools]
 tags: [Keyboard, Shortcut]
 ---
 

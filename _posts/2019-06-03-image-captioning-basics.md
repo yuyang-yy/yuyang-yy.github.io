@@ -6,6 +6,7 @@ date: 2019-06-03
 description:  (optional)
 img: image-caption.png
 comments: true
+categories: [Research]
 tags: [Image Caption]
 ---
 

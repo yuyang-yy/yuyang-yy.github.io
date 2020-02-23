@@ -6,6 +6,7 @@ date: 2018-10-19
 description:  Details about how to install R server
 img: r-server.jpg
 comments: true
+categories: [System]
 tags: [MLServer, R Server]
 ---
 

@@ -6,6 +6,7 @@ date: 2018-09-14
 description:  Notes about the tips to use the computer more efficiently.
 img: shortcut.jpg
 comments: true
+categories: [System]
 tags: [Shortcuts]
 ---
 

@@ -6,6 +6,7 @@ date: 2019-05-23
 description:  (optional)
 img: umn-google.png
 comments: true
+categories: [Tools]
 tags: [UMN, Google]
 ---
 

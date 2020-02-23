@@ -6,6 +6,7 @@ date: 2019-03-16
 description:  Notes of STAT 8052
 img: experiment-design.png
 comments: true
+categories: [Statistics]
 tags: [tag1, tag2]
 ---
 This is my notes of the course STAT 8052 and of the book: *A first Course in Design and Analysis of Experiments*.

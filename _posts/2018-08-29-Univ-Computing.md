@@ -6,6 +6,7 @@ date: 2018-08-29
 description:  This note is about the detail of how to use the computing resource in the university.
 img: computing.jpg
 comments: true
+categories: [System]
 tags: [tag1, tag2]
 ---
 

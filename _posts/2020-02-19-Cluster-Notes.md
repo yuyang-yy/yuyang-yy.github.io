@@ -6,6 +6,7 @@ date: 2020-02-19
 description:  The notes about how to use MSI, CSElabs, and other high performance computing.
 img: hpc-cluster.jpg
 comments: true
+categories: [System]
 tags: [MSI, CSElabs, Computing]
 ---
 

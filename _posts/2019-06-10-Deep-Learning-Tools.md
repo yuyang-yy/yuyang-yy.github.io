@@ -6,6 +6,7 @@ date: 2019-06-10
 description:  A collection of tools for deep learning.
 img: deep-learning-tools.png
 comments: true
+categories: [Research]
 tags: [Deep Learning, Tools]
 ---
 

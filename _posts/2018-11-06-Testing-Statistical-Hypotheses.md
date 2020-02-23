@@ -6,6 +6,7 @@ date: 2018-11-06
 description:  Notes of Lehmann's Testing Statistical Hypotheses
 img: testing-statistical-hypotheses.jpg
 comments: true
+categories: [Statistics]
 tags: [Lehmann, Hypothesis testing]
 ---
 

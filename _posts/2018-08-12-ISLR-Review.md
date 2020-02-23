@@ -6,6 +6,7 @@ date: 2018-08-12
 description:  To note down the review points of ISLR.
 img: ISLR.jpg
 comments: true
+categories: [Statistics]
 tags: [ISLR, review]
 ---
 

@@ -6,6 +6,7 @@ date: 2018-12-18
 description:  This is the note for python data analyis code.
 img: jupyter.png
 comments: true
+categories: [Data Science]
 tags: [Data Analysis]
 ---
 

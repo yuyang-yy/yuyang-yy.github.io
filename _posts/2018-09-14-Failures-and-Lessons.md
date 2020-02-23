@@ -6,6 +6,7 @@ date: 2018-09-14
 description:  This blog logs down my failures and what I have learnt from these failures.
 img: learn-from-failure.jpg
 comments: true
+categories: [Life]
 tags: [Failures, Lessons]
 ---
 

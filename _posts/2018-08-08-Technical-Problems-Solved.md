@@ -6,6 +6,7 @@ date: 2018-08-08
 description:  To note down the technical problems I have been through.
 img: terminal.jpg
 comments: true
+categories: [System]
 tags: [Technics, Terminal]
 ---
 

@@ -6,6 +6,7 @@ date: 2019-03-19
 description:  This is the note for the coursera course, deep learning.
 img: deep-learning.png
 comments: true
+categories: [Research]
 tags: [Coursera, Deep Learning]
 ---
 

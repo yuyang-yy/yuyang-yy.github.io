@@ -6,6 +6,7 @@ date: 2018-08-29
 description:  This is a note on Linux.
 img: linux.jpg
 comments: true
+categories: [System]
 tags: [Linux, Notes]
 ---
 

@@ -6,6 +6,7 @@ date: 2019-06-21
 description:  This post is for my health and maybe yours, about alleviating dizziness for using computers for a long time.
 img: computer-vision-syndrome.jpg
 comments: true
+categories: [Life]
 tags: [Computer Vision Syndrome, Cybersickness]
 ---
 

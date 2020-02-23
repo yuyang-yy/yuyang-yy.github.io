@@ -6,6 +6,7 @@ date: 2018-05-30
 description: To illustrate the purpose and main content of my blog.
 img: book-cactus.jpg
 comments: true
+categories: [Blog]
 tags: [jekyll, blog]
 ---
 This is my first blog. In this blog, I would illustrate why I build this blog and what I will log down in this website.
