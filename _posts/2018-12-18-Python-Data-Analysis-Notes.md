@@ -3,11 +3,13 @@ layout: post
 title: Python Data Analysis Notes
 author: yuyang
 date: 2018-12-18
-description:  This is the note for python data analyis code.
+description: This is the note for python data analyis code.
 img: jupyter.png
 comments: true
 categories: [Data Science]
 tags: [Data Analysis]
+seo:
+  date_modified: 2020-02-23 21:14:05 +0000
 ---
 
 1. Notes in STAT 8051 project

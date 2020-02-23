@@ -3,11 +3,13 @@ layout: post
 title: Linux Notes
 author: yuyang
 date: 2018-08-29
-description:  This is a note on Linux.
+description: This is a note on Linux.
 img: linux.jpg
 comments: true
 categories: [System]
 tags: [Linux, Notes]
+seo:
+  date_modified: 2020-02-23 21:14:05 +0000
 ---
 
 1. Common command

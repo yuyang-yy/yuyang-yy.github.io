@@ -3,11 +3,13 @@ layout: post
 title: Organize my Day for Maximum Productivity
 author: yuyang
 date: 2018-09-14
-description:  (optional)
+description: (optional)
 img: productivity.jpg
 comments: true
 categories: [Life]
 tags: [Organize, Productivity]
+seo:
+  date_modified: 2020-02-23 21:14:05 +0000
 ---
 
 This blog contains several tips to help organize my day. See references below.

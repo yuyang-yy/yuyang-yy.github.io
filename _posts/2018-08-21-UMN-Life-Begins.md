@@ -3,11 +3,13 @@ layout: post
 title: UMN Life Begins
 author: yuyang
 date: 2018-08-21
-description:  This blog keeps record of my first few days in UMN.
+description: This blog keeps record of my first few days in UMN.
 img: umn_logo.jpg
 comments: true
 categories: [Life]
 tags: [UMN, new]
+seo:
+  date_modified: 2020-02-23 21:14:05 +0000
 ---
 
 ## The first day in UMN (August 21)

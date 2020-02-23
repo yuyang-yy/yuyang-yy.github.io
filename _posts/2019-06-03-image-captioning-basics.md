@@ -3,11 +3,13 @@ layout: post
 title: Image Captioning Basics
 author: yuyang
 date: 2019-06-03
-description:  (optional)
+description: (optional)
 img: image-caption.png
 comments: true
 categories: [Research]
 tags: [Image Caption]
+seo:
+  date_modified: 2020-02-23 21:14:05 +0000
 ---
 
 

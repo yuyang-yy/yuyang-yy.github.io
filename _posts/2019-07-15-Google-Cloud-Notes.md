@@ -3,11 +3,13 @@ layout: post
 title: Google Cloud Notes
 author: yuyang
 date: 2019-07-15
-description:  (optional)
+description: (optional)
 img: gcp.jpeg
 comments: true
 categories: [System]
 tags: [Google Cloud]
+seo:
+  date_modified: 2020-02-23 21:14:05 +0000
 ---
 ### Connect to your instance
 - **Compute Engine** -> **VM instances** -> SSH downside triangle -> **View gcloud command**

@@ -3,11 +3,13 @@ layout: post
 title: Reading Notes
 author: yuyang
 date: 2018-09-16
-description:  Notes about the books I have read or am reading.
+description: Notes about the books I have read or am reading.
 img: reading.jpg
 comments: true
 categories: [Reading]
 tags: [Reading]
+seo:
+  date_modified: 2020-02-23 21:14:05 +0000
 ---
 
 <!-- TOC -->autoauto- [The Ph.D. Grind: A Ph.D. Student Memoir](#the-phd-grind-a-phd-student-memoir)auto- [The Willpower Instinct](#the-willpower-instinct)auto    - [ONE - I Will, I Won't, I Want: What Willpower Is, and Why It Matters](#one---i-will-i-wont-i-want-what-willpower-is-and-why-it-matters)auto    - [TWO - The Willpower Instinct: Your Body Was Born to Resist Cheesecake](#two---the-willpower-instinct-your-body-was-born-to-resist-cheesecake)auto    - [THREE - Too Tired to Resist: Why Self-Control Is Like a Muscle](#three---too-tired-to-resist-why-self-control-is-like-a-muscle)auto    - [FOUR - License to Sin: Why Being Good Gives Us Permission to Be Bad](#four---license-to-sin-why-being-good-gives-us-permission-to-be-bad)auto    - [FIVE - The Brain's Big Lie: Why We Mistake Wanting for Happiness](#five---the-brains-big-lie-why-we-mistake-wanting-for-happiness)auto    - [SIX - What the Hell: How Feeling Bad Leads to Giving In](#six---what-the-hell-how-feeling-bad-leads-to-giving-in)auto    - [SEVEN - Putting the Future on Sale: The Economics of Instant Gratification](#seven---putting-the-future-on-sale-the-economics-of-instant-gratification)auto    - [EIGHT - Infected! Why Willpower Is Contagious](#eight---infected-why-willpower-is-contagious)auto    - [NINE - Don't Read This Chapter: The Limits of "I Won't" Power](#nine---dont-read-this-chapter-the-limits-of-i-wont-power)auto    - [TEN - Final Thoughts](#ten---final-thoughts)auto- [乡土中国](#乡土中国)auto    - [之(2)(3) 文字下乡](#之23-文字下乡)auto    - [之(4) 差序格局](#之4-差序格局)auto- [The 4-Hour Workweek](#the-4-hour-workweek)auto    - [Chapter 2](#chapter-2)autoauto<!-- /TOC -->

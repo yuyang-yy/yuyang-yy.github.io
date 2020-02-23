@@ -3,11 +3,13 @@ layout: post
 title: Configure My Mac
 author: yuyang
 date: 2018-08-10
-description:  This blog keep records of my configuration on the mac.
+description: This blog keep records of my configuration on the mac.
 img: mac.jpg
 comments: true
 categories: [System]
 tags: [Mac, Configure]
+seo:
+  date_modified: 2020-02-23 21:14:05 +0000
 ---
 New updates are added to the front of this blog.
 

@@ -3,11 +3,13 @@ layout: post
 title: html and css
 author: yuyang
 date: 2018-12-23
-description:  Notes on html and css.
+description: Notes on html and css.
 img: html_css.png
 comments: true
 categories: [Programming]
 tags: [html, css]
+seo:
+  date_modified: 2020-02-23 21:14:05 +0000
 ---
 
 ## HTML Notes

@@ -3,11 +3,13 @@ layout: post
 title: Markdown Notes
 author: yuyang
 date: 2018-07-06
-description:  (optional)
+description: (optional)
 img: markdown.jpg
 comments: true
 categories: [Tools]
 tags: [Markdown, Syntax]
+seo:
+  date_modified: 2020-02-23 21:14:05 +0000
 ---
 
 These markdown notes are referenced from [Markdown Basics](https://daringfireball.net/projects/markdown/basics), [Github Guides](https://guides.github.com/features/mastering-markdown/) and [Writing on Github](https://help.github.com/categories/writing-on-github/).

@@ -3,11 +3,13 @@ layout: post
 title: R Packages
 author: yuyang
 date: 2020-02-19
-description:  Create an R package, do tests, commit it to Github.
+description: Create an R package, do tests, commit it to Github.
 img: r-package.jpg
 comments: true
 categories: [Programming]
 tags: [R, package]
+seo:
+  date_modified: 2020-02-23 21:14:05 +0000
 ---
 
 ### Create an R package

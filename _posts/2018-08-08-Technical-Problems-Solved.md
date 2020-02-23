@@ -3,11 +3,13 @@ layout: post
 title: Technical Problems collection
 author: yuyang
 date: 2018-08-08
-description:  To note down the technical problems I have been through.
+description: To note down the technical problems I have been through.
 img: terminal.jpg
 comments: true
 categories: [System]
 tags: [Technics, Terminal]
+seo:
+  date_modified: 2020-02-23 21:14:05 +0000
 ---
 
 ## Probelms about the environment variables.

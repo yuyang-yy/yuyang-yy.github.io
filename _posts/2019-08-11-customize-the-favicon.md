@@ -5,7 +5,7 @@ categories: [Blogging, Tutorial]
 tags: [favicon]
 toc: false
 seo:
-  date_modified: 2020-01-04 17:05:41 +0800
+  date_modified: 2020-02-23 21:14:05 +0000
 ---
 
 In [**Chirpy**](https://github.com/cotes2020/jekyll-theme-chirpy/), the image files of [Favicons](https://www.favicon-generator.org/about/) are placed in `assets/img/favicons/`. You may need to replace them with your own. So let's see how to customize these Favicons.

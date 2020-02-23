@@ -3,11 +3,13 @@ layout: post
 title: Design and Analysis of Experiments
 author: yuyang
 date: 2019-03-16
-description:  Notes of STAT 8052
+description: Notes of STAT 8052
 img: experiment-design.png
 comments: true
 categories: [Statistics]
 tags: [tag1, tag2]
+seo:
+  date_modified: 2020-02-23 21:14:05 +0000
 ---
 This is my notes of the course STAT 8052 and of the book: *A first Course in Design and Analysis of Experiments*.
 

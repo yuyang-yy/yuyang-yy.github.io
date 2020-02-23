@@ -3,11 +3,13 @@ layout: post
 title: TensorFlow 2.0 New Features
 author: yuyang
 date: 2019-06-06
-description:  (optional)
+description: (optional)
 img: tensorflow.png
 comments: true
 categories: [Research]
 tags: [TensorFlow, 2.0]
+seo:
+  date_modified: 2020-02-23 21:14:05 +0000
 ---
 
 

@@ -3,11 +3,14 @@ layout: post
 title: Tips for Using Computers without Feeling Sick
 author: yuyang
 date: 2019-06-21
-description:  This post is for my health and maybe yours, about alleviating dizziness for using computers for a long time.
+description: This post is for my health and maybe yours, about alleviating dizziness
+  for using computers for a long time.
 img: computer-vision-syndrome.jpg
 comments: true
 categories: [Life]
 tags: [Computer Vision Syndrome, Cybersickness]
+seo:
+  date_modified: 2020-02-23 21:14:05 +0000
 ---
 
 Credits to [What is Computer Vision Syndrome (CVS) and Tips on How to Stop It](https://www.vagabondjourney.com/what-is-computer-vision-syndrome-cvs-and-tips-on-how-to-stop-it/) and [Feel a Little Sick After Lots of Computer Work? This Is Why, According to Science](https://www.inc.com/wanda-thibodeaux/feel-a-little-sick-after-lots-of-computer-work-this-is-why-according-to-science.html).

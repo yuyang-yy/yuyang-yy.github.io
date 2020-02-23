@@ -3,11 +3,13 @@ layout: post
 title: R Server installation
 author: yuyang
 date: 2018-10-19
-description:  Details about how to install R server
+description: Details about how to install R server
 img: r-server.jpg
 comments: true
 categories: [System]
 tags: [MLServer, R Server]
+seo:
+  date_modified: 2020-02-23 21:14:05 +0000
 ---
 
 Installing the R Server is motivated by a wechat article [搭建你的免费R云端服务器](https://mp.weixin.qq.com/s/s9m_1wdm2CF6Ct0w-erN8g). It uses the Machine Learning Server which recently becomes free to the public by Microsoft. The installation of Machine Learning Server refers the [official documentation](https://docs.microsoft.com/en-us/machine-learning-server/install/machine-learning-server-linux-install#install-on-ubuntu-). And I install it on my AWS server. Since I only have access to Ubuntu14.04 and Ubuntu18.04, I choose to install it on the 14.04 version.

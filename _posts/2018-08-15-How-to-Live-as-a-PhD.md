@@ -3,11 +3,13 @@ layout: post
 title: How to Live as a PhD
 author: yuyang
 date: 2018-08-15
-description:  This blog contains some advice for a PhD student or candidate.
+description: This blog contains some advice for a PhD student or candidate.
 img: phd.jpg
 comments: true
 categories: [Life]
 tags: [PhD, Advice]
+seo:
+  date_modified: 2020-02-23 21:14:05 +0000
 ---
 
 Some interesting articles worth reading: 

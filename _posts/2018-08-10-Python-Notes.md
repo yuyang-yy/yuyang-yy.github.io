@@ -3,11 +3,13 @@ layout: post
 title: Python Notes
 author: yuyang
 date: 2018-08-10
-description:  This blog keep notes about python programming and configuration.
+description: This blog keep notes about python programming and configuration.
 img: python.jpg
 comments: true
 categories: [Programming]
 tags: [Python, programming]
+seo:
+  date_modified: 2020-02-23 21:14:05 +0000
 ---
 
 ## Configuration

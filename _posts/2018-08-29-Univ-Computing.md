@@ -3,11 +3,14 @@ layout: post
 title: Univ computing
 author: yuyang
 date: 2018-08-29
-description:  This note is about the detail of how to use the computing resource in the university.
+description: This note is about the detail of how to use the computing resource in
+  the university.
 img: computing.jpg
 comments: true
 categories: [System]
 tags: [tag1, tag2]
+seo:
+  date_modified: 2020-02-23 21:14:05 +0000
 ---
 
 ## Basic Tech 

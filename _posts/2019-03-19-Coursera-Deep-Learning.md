@@ -3,11 +3,13 @@ layout: post
 title: Coursera Deep Learning Notes
 author: yuyang
 date: 2019-03-19
-description:  This is the note for the coursera course, deep learning.
+description: This is the note for the coursera course, deep learning.
 img: deep-learning.png
 comments: true
 categories: [Research]
 tags: [Coursera, Deep Learning]
+seo:
+  date_modified: 2020-02-23 21:14:05 +0000
 ---
 
 ## Python Part

@@ -3,11 +3,13 @@ layout: post
 title: Kaggle Competition--Travelers Fraud Detection
 author: yuyang
 date: 2018-12-21
-description:  This blog takes notes of what our group has done in the Kaggle competition.
+description: This blog takes notes of what our group has done in the Kaggle competition.
 img: kaggle_Travelers.png
 comments: true
 categories: [Data Science]
 tags: [Kaggle, Fraud Detection]
+seo:
+  date_modified: 2020-02-23 21:14:05 +0000
 ---
 
 This blog is about what our group has done in the [Kaggle competition for Travelers Fraud Detection](https://www.kaggle.com/c/2018-trv-statistical-modeling-competition-umn) and what I have learnt through this experience. Hope this would help you get some ideas when doing similar projects.

@@ -3,11 +3,13 @@ layout: post
 title: Pragmatic Thinking and Learning
 author: yuyang
 date: 2018-11-15
-description:  Notes of the book
+description: Notes of the book
 img: pragmatic-thinking.jpg
 comments: true
 categories: [Reading]
 tags: [Thinking, Learning]
+seo:
+  date_modified: 2020-02-23 21:14:05 +0000
 ---
 
 This blog is the notes for the book: **Pragmatic Thinking and Learning: Refactor Your Wetware** by *Andy Hunt*.

@@ -3,11 +3,13 @@ layout: post
 title: Python and R
 author: yuyang
 date: 2020-02-22
-description:  Notes about the interaction between Python and R.
+description: Notes about the interaction between Python and R.
 img: python-r.jpg
 comments: true
 categories: [Programming]
 tags: [Python, R, Interface]
+seo:
+  date_modified: 2020-02-23 21:14:05 +0000
 ---
 
 ## Tools

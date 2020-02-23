@@ -3,11 +3,13 @@ layout: post
 title: UMN Google Day Notes
 author: yuyang
 date: 2019-05-23
-description:  (optional)
+description: (optional)
 img: umn-google.png
 comments: true
 categories: [Tools]
 tags: [UMN, Google]
+seo:
+  date_modified: 2020-02-23 21:14:05 +0000
 ---
 
 Note that some of the features are available only for the business account.
