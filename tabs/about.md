@@ -8,4 +8,9 @@ title: About
 # MIT License
 ---
 
-> **Note**: Add Markdown syntax content to file `tabs/about.md` and it will show up on this page.
+Hi! I am Yu Yang, a second-year PhD student in Statistics. I am now working on natural language processing and some machine learning methods. 
+
+This is my personal blog. I usually write notes in programming, system configuration, and course understanding. I may also share some of my little stories here. I would be happy if you enjoy this blog! You can also check my [academic website](https://yuyangstatistics.github.io/).
+
+My motto is: *Respect Life!* 
+
