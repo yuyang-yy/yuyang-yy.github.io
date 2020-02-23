@@ -1,0 +1,21 @@
+---
+layout: post
+title: R Notes
+author: yuyang
+date: 2018-10-25
+description:  R notes
+img: r.jpg
+comments: true
+tags: [R]
+---
+
+1. Read excel file into R.
+```{r}
+library(gdata)
+data <- read.xls(file, header = TRUE)
+```
+
+2. Merge two data frame.
+```{r}
+merge(data frame 1, data frame 2, by = "ID", all.x = TRUE, all.y = TRUE)
+```

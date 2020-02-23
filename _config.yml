@@ -8,40 +8,38 @@
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 #--------------------------
 
-title: Chirpy                          # the main title
+title: Hello, world! I'm Yu Yang!      # the main title
 
-tagline: A text-focused Jekyll theme.  # it will display as the sub-title
+tagline: Respect Life!   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, portfolio, sidebar,
-  bootstrap Jekyll theme with responsive web design
-  and focuses on text presentation.
+  This is my personal blog, mainly to take notes and share interesting things in life.
 
 # Replace with your domain, e.g. 'https://username.github.io'
-url: 'protocol://domain'
+url: 'https://yuyang-yy.github.io/'
 
-author: your_full_name                  # change to your full name
+author: Yu Yang                 # change to your full name
 
-avatar: /assets/img/sample/avatar.jpg   # support internet resources
+avatar: /assets/img/life/yuyang.jpg   # support internet resources
 
 github:
-  username: github_username             # change to your github username
+  username: yuyang-yy            # change to your github username
 
 twitter:
-  username: twitter_username            # change to your twitter username
+  username: YuYang97360922            # change to your twitter username
 
 social:
-  name: your_full_name                  # it will shows as the copyright owner in Footer
-  email: example@doamin.com             # change to your email address
+  name: Yu Yang                  # it will shows as the copyright owner in Footer
+  email: yuyangstatistics@gmail.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/username       # change to your github homepage
+    - https://twitter.com/YuYang97360922     # change to your twitter homepage
+    - https://github.com/yuyang-yy       # change to your github homepage
     # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.facebook.com/100024422318871
+    - https://www.linkedin.com/in/yuyang479614151
 
-google_site_verification: google_meta_tag_verification # change to your verification string
+google_site_verification: p_cZK9Wf6cunTSTezwc3_RFkwAm3nVI9gF6CR5_lxqM  # change to your verification string
 
 #--------------------------
 
@@ -49,7 +47,7 @@ google_site_verification: google_meta_tag_verification # change to your verifica
 baseurl: ''
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: Asia/Shanghai
+timezone: America/Chicago
 
 google_analytics:
   # Fill with your Google Analytics ID
@@ -199,3 +197,6 @@ sitemap_exclude:  # Sitemap will exclude the following items.
     - sitemap.xml
     - robots.txt
     - redirects.json
+
+# port setting
+port: 8000
