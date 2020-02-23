@@ -6,7 +6,8 @@ date: 2018-06-06
 description:  I would spend 7 days in Japan for travelling. During this period, I have found some interesting and thought-provoking phenomenon in Osaka and Kyoto. The restaurants and people here are somewhat different from my familiar environment.
 img: travel-car.jpg
 comments: true
-tags: [tag1, tag2]
+categories: [Life]
+tags: [Japan]
 ---
 The first day in Japan.
 

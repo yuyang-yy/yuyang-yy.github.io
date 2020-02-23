@@ -6,6 +6,7 @@ date: 2018-07-05
 description:  This blog contains not only how I reinstall my MacOS, but also what I have done to configure my computer.
 img: macos.jpg
 comments: true
+categories: [System]
 tags: [macOS, Configuration]
 ---
 

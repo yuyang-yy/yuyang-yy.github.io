@@ -6,6 +6,7 @@ date: 2018-11-11
 description:  Notes of the book written by Alan Agresti.
 img: Agresti.jpg
 comments: true
+categories: [Statistics]
 tags: [Categorical, Data Analysis]
 ---
 

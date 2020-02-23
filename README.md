@@ -5,7 +5,7 @@
 
 
 ### Run jekyll locally
-`jekyll serve -w --host=0.0.0.0`
+> jekyll serve -w --host=0.0.0.0
 
 
 ### License

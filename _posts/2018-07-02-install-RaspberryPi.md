@@ -6,6 +6,7 @@ date: 2018-07-02
 description:  (optional)
 img: raspberry-pi.jpg
 comments: true
+categories: [System]
 tags: [Raspberry Pi, ssh]
 ---
 Today, my display has finally arrived. I spent two hours on installing the Raspian operating system and coping with the problems about it. The following will illustrate the problems I have met during the process.
