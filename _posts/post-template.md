@@ -4,8 +4,6 @@ title: Name of the Blog
 author: yuyang
 date: yyyy-mm-dd
 description: (optional)
-img: (name of the picture).jpg
-comments: true
 categories: [template]
 tags: [tag1, tag2]
 seo:
