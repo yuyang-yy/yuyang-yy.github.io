@@ -112,3 +112,17 @@ References:
     - [C Programming I](https://www.biostat.wisc.edu/~kbroman/teaching/statprog/cprog1_ho.pdf)
     - [C Programming II](https://www.biostat.wisc.edu/~kbroman/teaching/statprog/cprog2_ho.pdf)
     - [C Programming III](https://www.biostat.wisc.edu/~kbroman/teaching/statprog/cprog3_ho.pdf)
+
+
+### Rcpp
+References:
+- [Instructions for Creating Your Own R Package](http://web.mit.edu/insong/www/pdf/rpackage_instructions.pdf)
+
+Since there are so many subtle issue in Catalina, I turned to Ubuntu machine on Goolge Cloud. The installation of R follows the instruction [How to Install R on Ubuntu 18.04](https://linuxize.com/post/how-to-install-r-on-ubuntu-18-04/).
+
+`sudo apt install libcurl4-openssl-dev`
+`sudo apt install libxml2-dev`
+
+Packages are installed as root `sudo -i R`, including:
+- Rcpp, devtools, bench, conformalInference, 
+
