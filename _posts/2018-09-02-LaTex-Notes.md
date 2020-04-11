@@ -4,8 +4,7 @@ title: LaTeX Notes
 author: yuyang
 date: 2018-09-02
 description:  This note logs down the errors I have confronted and several knowledge point.
-img: latex.jpg
-comments: true
+categories: [Tools]
 tags: [LaTeX]
 ---
 

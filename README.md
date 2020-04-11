@@ -22,5 +22,8 @@
 > jekyll serve -w --host=0.0.0.0
 Open browser: (external ip):8000
 
+### Search Functionality
+- Two plugins for searching have been added. But since github page doesn't allow external plugins, they are not working actually. The two plugins are from [Simple-Jekyll-Search](https://github.com/christian-fei/Simple-Jekyll-Search), the searching framework [jekyll-theme-chirpy](https://github.com/cotes2020/jekyll-theme-chirpy/blob/c7acce88bb278d8eec6a0c41a59000406ded2002/_includes/search-loader.html) uses.
+
 ### License
 GNU General Public License v3.0
