@@ -21,7 +21,7 @@ Most of the latex notes are referenced in the book [LATEX Tutorials: A PRIMER](h
 
 - Insert python code with highlighting.
 Use the following to before `\begin{document}`.
-	```
+	```latex
 	% settings for python code
 	\usepackage[utf8]{inputenc}
 	\DeclareFixedFont{\ttb}{T1}{txtt}{bx}{n}{10} % for bold
@@ -31,32 +31,20 @@ Use the following to before `\begin{document}`.
 	\definecolor{deepred}{rgb}{0.6,0,0}
 	\definecolor{deepgreen}{rgb}{0,0.5,0}
 	\usepackage{listings}
-	\newcommand\pythonstyle{\lstset{
-			language=Python,
-			basicstyle=\ttm,
-			otherkeywords={self},             % Add keywords here
-			keywordstyle=\ttb\color{deepblue},
-			emph={MyClass,__init__},          % Custom highlighting
-			emphstyle=\ttb\color{deepred},    % Custom highlighting style
-			stringstyle=\color{deepgreen},
-			frame=tb,                         % Any extra options here
-			showstringspaces=false            % 
-	}}
-	\lstnewenvironment{python}[1][]
-	{
-		\pythonstyle
-		\lstset{#1}
-	}
-	{}
-	\newcommand\pythonexternal[2][]{{
-			\pythonstyle
-			\lstinputlisting[#1]{#2}}}
-	\newcommand\pythoninline[1]{{\pythonstyle\lstinline!#1!}}
+	\lstdefinestyle(PythonStyle){
+		language=Python,
+         	basicstyle=\ttm,
+	     	otherkeywords={self},             % Add keywords here
+          	keywordstyle=\ttb\color{deepblue},
+          	emph={MyClass,__init__},          % Custom highlighting
+          	emphstyle=\ttb\color{deepred},    % Custom highlighting style
+          	stringstyle=\color{deepgreen},
+          	frame=tb,                         % Any extra options here
+          	showstringspaces=false            % 
+  	}
 	```
-And use `\pythonexternal{../notebooks/Classification.py}` to insert the python code from outside source.
-
 - Insert figures. [reference](https://www.latex-tutorial.com/tutorials/figures/)
-	```
+	```latex
 	\documentclass{article}
 	\usepackage{graphix}
 	\usepackage{subcaption}
