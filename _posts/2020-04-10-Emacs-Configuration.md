@@ -3,21 +3,31 @@ layout: post
 title: Emacs Configuration
 author: yuyang
 date: 2020-04-10
-categories: [Tool]
+categories: [Tools]
 tags: [Emacs]
-seo:
-  date_modified: 2020-04-10 21:14:05 +0000
 ---
 References:
 - [Markdown Mode for Emacs](https://jblevins.org/projects/markdown-mode/)
 - [Emacs: The Best Python Editor?](https://realpython.com/emacs-the-best-python-editor/)
 - [Zenburn for Emacs](https://github.com/bbatsov/zenburn-emacs)
 
+## Key settings
+- Set `Command` as the meta key.
+  ```lisp
+  ;; key bindings
+  (when (eq system-type 'darwin) ;; mac specific settings
+	  (setq mac-option-modifier 'meta)
+	  )
+  ```
+- Switch `Ctrl` and `Caps Lock` in System settings. `Caps Lock` is used less often and is more convient for Emacs use based on my habit.
+
+## Initialization file settings
+
 Before installing the required emacs packages, run `M-x list-packages` to upgrade packages.
 
-After testing different themes, including doom themes, the default material theme, and many other themes in [MELPA](https://melpa.org/#/), I chose zenburn-theme. It is easy on my eyes and the coloring scheme fits me.
+After testing different themes, including doom themes, the default material theme, and many other themes in [MELPA](https://melpa.org/#/), I chose zenburn-theme. It is easy on my eyes and the coloring scheme fits me. Run `M-x package-install <Return> zenburn-theme` to install the package.
 
-The following is my `~/.emacs` file.
+The following is my `~/.emacs` file. Check the comments for details.
 
 ```lisp
 ;; ==================  Update date: Apr. 10  ==================

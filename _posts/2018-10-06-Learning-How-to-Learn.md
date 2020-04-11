@@ -8,8 +8,6 @@ img: focused-diffused.jpg
 comments: true
 categories: [Reading]
 tags: [Learning, How to Learn]
-seo:
-  date_modified: 2020-02-23 21:14:05 +0000
 ---
 
 This Blog is a note for the course on Coursera -- **Learning How to Learn: Powerful mental tools to help you master tough subjects**. [The transcript file](https://raw.githubusercontent.com/yuyang-yy/materials/master/Learning-how-to-learn.pdf) is also helpful.

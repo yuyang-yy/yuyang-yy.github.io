@@ -5,10 +5,8 @@ author: yuyang
 date: 2020-03-20
 categories: [中文, 纪录片]
 tags: [公司, 经济]
-seo:
-  date_modified: 2020-03-20 12:00:00 +0000
 ---
-Reference: [公司的力量解说词]({{site.baseurl}}/assets/files/power-of-corporations.md)
+Reference: [公司的力量解说词](https://raw.githubusercontent.com/yuyang-yy/materials/master/files/power-of-corporations.md)
 
 ## 第一集 公司！公司！
 
