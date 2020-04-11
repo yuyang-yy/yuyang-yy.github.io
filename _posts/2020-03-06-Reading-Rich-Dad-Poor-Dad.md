@@ -2,7 +2,7 @@
 layout: post
 title: 穷爸爸富爸爸
 author: yuyang
-date: 2020-03-09
+date: 2020-03-06
 description: (optional)
 categories: [中文, 阅读]
 tags: [财务, 投资]

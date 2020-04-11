@@ -13,6 +13,14 @@ seo:
 ---
 New updates are added to the front of this blog.
 
+------------------------------
+Update date: Apr. 8
+## Emacs
+Since several keybindings of Emacs conflict with Mac OSX, I changed some keyboard settings.
+`System Preferences -> Keyboard -> Shortcuts -> Input Sources`, I changed the shortcut for "Select the previous input source" to "ctrl + shift + space" to enable using "C-<SPC>" in Emacs.
+
+
+------------------------------ 
 ## ssh config and .bash_aliases
 Update date: Feb. 19
 
@@ -74,6 +82,4 @@ alias python3="/Library/Frameworks/Python.framework/Versions/3.7/bin/python3.7"
     1. Close all of the projects
     2. Select the items that need font change
     3. Change the font and size. [See details.](https://stackoverflow.com/questions/1339706/how-to-increase-font-size-in-the-xcode-editor)
-
-
 

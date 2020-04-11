@@ -17,6 +17,8 @@ seo:
 2. [FileZilla](https://www.msi.umn.edu/support/faq/how-do-i-use-filezilla-transfer-data) to transfer data files.
 3. [Cuda](https://www.msi.umn.edu/sw/cuda) and [GPU number setting](https://github.com/allenai/allennlp/issues/1090)
 
+Use the same configuration as in CSE Labs, configure ssh to login without password.
+
 
 ## Question to ask MSI staff
 1. How to configure the environment for Jupyter notebook? Can I start Jupyter notebook in one environment?

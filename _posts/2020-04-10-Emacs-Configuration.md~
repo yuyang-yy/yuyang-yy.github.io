@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Name of the Blog
+title: Emacs Configuration
 author: yuyang
-date: yyyy-mm-dd
-categories: [template]
+date: 2020-04-10
+categories: [Tool]
 tags: [tag1, tag2]
 seo:
   date_modified: 2020-02-23 21:14:05 +0000
