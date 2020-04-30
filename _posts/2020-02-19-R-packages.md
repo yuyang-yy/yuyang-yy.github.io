@@ -126,3 +126,28 @@ Since there are so many subtle issue in Catalina, I turned to Ubuntu machine on 
 Packages are installed as root `sudo -i R`, including:
 - Rcpp, devtools, bench, conformalInference, 
 
+### Build R packages with Rstudio
+
+- Check [Instructions for Creating Your Own R Package](http://web.mit.edu/insong/www/pdf/rpackage_instructions.pdf) for detailed steps to build a package in Rstudio.
+- Check [roxygen2 documentations](https://cran.r-project.org/web/packages/roxygen2/index.html) for instructions about roxygen2.
+- Use `Ctrl + Shift + B` to quickly build, install, and reload.
+- Add `*.Rproj` and `.Rbuildignore` to the `.gitignore` file when building a package using Rstudio.
+
+#### About roxygen2 in Rstudio
+- There is an icon above the R file, called `Code Tools`. Put the cursor inside the function you want to write a document, click the icon, and choose *Insert Roxygen Skeleton*.
+- Add `Roxygen: list(markdown = TRUE)` to `DESCRIPTION` to enable markdown syntax in roxygen2.
+
+#### About vignettes
+1. Build vignettes following the instructions in [Writing vignettes](https://kbroman.org/pkg_primer/pages/vignettes.html).
+2. The default comment setting is `"#>"`, and you can change it to `">"` if you prefer. And also the collapse setting.
+3. html vignette saves memory, and this is why it is the default option. You can also choose to output to a pdf document by setting `output: pdf_document`.
+4. `Ctrl + Shift + B` will not generate vignettes. To generate vignettes, run `devtools::build()` and `devtools::install(build_vignettes = TRUE)`. But everytime I do this, there would an error message when I try to see the help files. To solve that, run `Ctrl + Shift + B` again, and it should be fine.
+5. `vignettes(package = "packagename")`: show the vignette information.
+6. `browseVignettes("packagename")`: open the vignette files in a browser.
+
+#### About datasets
+1. First, create a folder `data/`, and then save the dataset in .rda format: `save(mydata, file="data/mydata.RData")`.
+2. Second, create a file `mydata.R` in the `R/` folder, and write roxygen comments. Check [Rd (documentation) tags](https://cran.r-project.org/web/packages/roxygen2/vignettes/rd.html) and [Including datasets](https://kbroman.org/pkg_primer/pages/data.html) for detailed instructions.
+3. Third, add `LazyData: true` to the `DESCRIPTION` file if it is not there.
+
+
