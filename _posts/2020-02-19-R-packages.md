@@ -141,7 +141,7 @@ Packages are installed as root `sudo -i R`, including:
 1. Build vignettes following the instructions in [Writing vignettes](https://kbroman.org/pkg_primer/pages/vignettes.html).
 2. The default comment setting is `"#>"`, and you can change it to `">"` if you prefer. And also the collapse setting.
 3. html vignette saves memory, and this is why it is the default option. You can also choose to output to a pdf document by setting `output: pdf_document`.
-4. `Ctrl + Shift + B` will not generate vignettes. To generate vignettes, run `devtools::build()` and `devtools::install(build_vignettes = TRUE)`. But everytime I do this, there would an error message when I try to see the help files. To solve that, run `Ctrl + Shift + B` again, and it should be fine.
+4. `Ctrl + Shift + B` will not generate vignettes. To build the package with vignettes, use command line `R CMD build packagename` and `R CMD INSTALL tarballfile`. I tried using devtools to sovle this problem, I ran `devtools::build()` and `devtools::install(build_vignettes = TRUE)`. After doing this, we shall see the vignettes information by `browseVignettes("packagename")`. But everytime I do this, there would an error message when I try to see the help files. Command line is the best way for me so far.
 5. `vignettes(package = "packagename")`: show the vignette information.
 6. `browseVignettes("packagename")`: open the vignette files in a browser.
 
@@ -150,4 +150,22 @@ Packages are installed as root `sudo -i R`, including:
 2. Second, create a file `mydata.R` in the `R/` folder, and write roxygen comments. Check [Rd (documentation) tags](https://cran.r-project.org/web/packages/roxygen2/vignettes/rd.html) and [Including datasets](https://kbroman.org/pkg_primer/pages/data.html) for detailed instructions.
 3. Third, add `LazyData: true` to the `DESCRIPTION` file if it is not there.
 
+#### Summary about steps after finishing editing files
+``` r
+library(devtools)
+document()
+test()
+```
+
+> R CMD build ...
+>
+> R CMD INSTALL ...
+>
+> R CMD check ...
+
+``` r
+library(package)
+?function
+browseVignettes("package")
+```
 
