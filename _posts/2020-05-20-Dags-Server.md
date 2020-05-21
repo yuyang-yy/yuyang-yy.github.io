@@ -13,23 +13,20 @@ In order to use Jupyter notebook and python3.7, I need to load module `python/co
 
 To automatically load specific software module or modules every time you log into the server, edit your `.bashrc` file:
 
-> # automatically load conda module
->
+```bash
 > module load python/conda/3.7
-
+```
 
 ## Install packages
 Keep a habit of using virtual environments, especially in a remote server where I am not the root. One biggest different between local machines and remote machines is that you won't have the permission to install packages as you want, and you are only allowed to install packages on your local directory. If you want to install a python package for general purposes, use `pip install --user packagename`. But usually, we work on projects and should set different environments for different projects, so creating a conda virtual environment and install packages inside would be a better idea.
 
+```bash
 > module load python/conda/3.7
->
 > conda create -n envname python=3.7
->
 > conda activate envname
->
 > conda install packages
->
 > conda deactivate
+```
 
 Note: in order to use `conda activate`, we need to run `conda init bash` to initialize conda commands.
 
@@ -37,8 +34,9 @@ Now you can install packages you would like to use, without worring about not ha
 
 To see the information of the environments, run:
 
+```bash
 > conda info --envs
-
+```
 
 ## Jupyter notebook
 
@@ -50,17 +48,19 @@ If you have created a conda virtual environment as before and have activated it,
 
 1. In the remote host, run:
 
+```bash
 > jupyter notebook --no-browser --port=8889
+```
 
 2. In the local computer, run:
 
+```bash
 > ssh -N -f -L localhost:8888:localhost:8889 x500@dags
+```
 
 Note: I have configured dags in my ssh configuration, so I just use the shortcut of the host name.
 
-3. Open local browser and type:
-
-> localhost:8888
+3. Open local browser and type **localhost:8888**.
 
 ### Use functions to simplify
 Use functions or aliases to make the above steps easier. The reference used functions and for simplicity, I aliases.
@@ -86,30 +86,36 @@ Note: for zsh, do remember to add single quote or double quote.
 
 remotely, 
 
+```bash
 > jpt 8889
+```
 
 locally, 
 
+```bash
 > jptt 8889 8888
+```
 
-Open browser and type `localhost:8888`. Done!
+Open browser and type **localhost:8888**. Done!
 
 ### Use aliases to simply
 For simplicity, I set the default remote port to be 8889, and the default local port to be 8888. Feel free to change it.
 
 1. Edit `.bash_aliases` in the remote server.
 
-> alias jpdags="jupyter notebook --no-browser --port=8889"
+```bash
+alias jpdags="jupyter notebook --no-browser --port=8889"
+```
 
 2. Edit `.zshrc` in the local machine.
 
-> # establish ssh tunnel and open the browser
->
-> alias jpdags="ssh -N -f -L localhost:8880:localhost:8889 x500@dags; open 'http://localhost:8880/tree?'"
->
-> # kill related ssh processes
->
-> alias kjpdags="ps aux | grep '8889.*dags'"
+```bash
+# establish ssh tunnel and open the browser
+alias jpdags="ssh -N -f -L localhost:8880:localhost:8889 x500@dags; open 'http://localhost:8880/tree?'"
+
+# kill related ssh processes
+alias kjpdags="ps aux | grep '8889.*dags'"
+```
 
 Now, the browser window will automatically open.
 
