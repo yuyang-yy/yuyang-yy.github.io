@@ -126,7 +126,28 @@ Note: remember to add single quote around the url link and the regular expressio
 4. Kill relevant ssh processes by running `kjpdags` and `kill <PID>` with PID shown in the grep results.
 
 
-## Remote Development using VS Code
+## Install Packages
+
+Keep in mind that all of these packages should be installed in a virtual environment.
+
+### PyTorch
+First, check the available cuda modules and the GPU information. In dags server, the newest version of cuda is 10.0.130, and the cuda version for the GPUs is 10.2. Which version should I use then? 10.2 means the GPU can deal with at most 10.2 version of cuda, so it is fine to have lower versions. In the official pytorch website, the available cuda versions for 1.5.0 are 9.2, 10.1, and 10.2. I tried all of them using conda, and none of them works. I then tried pip under the version 10.1, and it worked!
+
+```bash
+> module avail
+> nvcc -V
+
+> nvidia-smi
+```
+
+```bash
+> pip install torch==1.5.0+cu101 torchvision==0.6.0+cu101 -f https://download.pytorch.org/whl/torch_stable.html
+```
+
+
+## Helpful Tools
+
+### Remote Development using VS Code
 
 References
 - [Remote Development using SSH](https://code.visualstudio.com/docs/remote/ssh)
@@ -135,3 +156,18 @@ Install the Remote Development extension pack in VS Code, and this would enable 
 
 - Open VS Code, press `F1` to open the command plate, select **Remote-SSH: Connect to Host...**, and choose the remote server. I have set ssh configurations, so I can directly see the available remote servers. Done!
 - VS Code would remember your action, so next time you open VS Code, you can directly check recent activities to quickly connect ssh.
+
+### TMUX
+It is convenient to use tmux to run multiple processes without logging into the same machine for several times. Also, the multiscreen functionality is helpful.
+
+- `$tmux`: create a new session.
+- `$tmux list-sessions`: list sessions.
+- `Ctrl + b`: controlling keyword
+	- `+x`: kill a pane
+	- `+"`: split a pane horizontally
+	- `+%`: split a pane vertically
+
+## Other Configurations
+
+### aliases
+- I uncommented `unalias rm` in the `.bash_aliases` file, since the rm questions are disturbing.
